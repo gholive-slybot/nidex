@@ -19,35 +19,10 @@
       <nav class="navbar__links" id="navLinks">
         <a href="#funcionalidades">Funcionalidades</a>
         <a href="#como-funciona">Como funciona</a>
-        <div class="nav-dropdown">
-          <a href="servicos.html" class="nav-dropdown__trigger">
-            Serviços
-            <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="6 9 12 15 18 9"/></svg>
-          </a>
-          <div class="nav-dropdown__menu">
-            <a href="servicos.html#treinamento" class="nav-dropdown__item">
-              <div class="nav-dropdown__icon">🎓</div>
-              <div>
-                <div class="nav-dropdown__item-title">Treinamento em IA</div>
-                <div class="nav-dropdown__item-desc">Capacite sua equipe com IA aplicada</div>
-              </div>
-            </a>
-            <a href="servicos.html#desenvolvimento" class="nav-dropdown__item">
-              <div class="nav-dropdown__icon">⚡</div>
-              <div>
-                <div class="nav-dropdown__item-title">Desenvolvimento com IA</div>
-                <div class="nav-dropdown__item-desc">Soluções sob medida em tempo recorde</div>
-              </div>
-            </a>
-            <a href="servicos.html#automacao" class="nav-dropdown__item">
-              <div class="nav-dropdown__icon">🤖</div>
-              <div>
-                <div class="nav-dropdown__item-title">Automação de Processos</div>
-                <div class="nav-dropdown__item-desc">Elimine tarefas repetitivas com IA</div>
-              </div>
-            </a>
-          </div>
-        </div>
+        <button class="mega-trigger" id="megaTrigger" aria-expanded="false" aria-controls="megaMenu">
+          Serviços
+          <svg class="mega-trigger__chevron" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="6 9 12 15 18 9"/></svg>
+        </button>
         <a href="#depoimentos">Depoimentos</a>
         <a href="#precos">Preços</a>
       </nav>
@@ -59,6 +34,77 @@
         <span></span><span></span><span></span>
       </button>
     </div>
+
+    <!-- MEGA MENU -->
+    <div class="mega-menu" id="megaMenu" role="region" aria-label="Serviços">
+      <div class="mega-menu__inner container">
+
+        <a href="servicos.html#treinamento" class="mega-card">
+          <div class="mega-card__img">
+            <img src="https://images.unsplash.com/photo-1552664730-d307ca884978?w=600&q=80" alt="Treinamento em IA" loading="lazy" />
+            <div class="mega-card__img-overlay"></div>
+            <span class="mega-card__badge">🎓 Serviço 01</span>
+          </div>
+          <div class="mega-card__body">
+            <h3 class="mega-card__title">Treinamento em IA para Empresas</h3>
+            <p class="mega-card__desc">Capacite sua equipe para usar IA no dia a dia — vendas, marketing, operações e gestão. Sem precisar ser técnico.</p>
+            <div class="mega-card__tags">
+              <span>Workshops práticos</span>
+              <span>Trilha personalizada</span>
+              <span>Certificação</span>
+            </div>
+            <div class="mega-card__cta">
+              Saiba mais
+              <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M5 12h14M12 5l7 7-7 7"/></svg>
+            </div>
+          </div>
+        </a>
+
+        <a href="servicos.html#desenvolvimento" class="mega-card">
+          <div class="mega-card__img">
+            <img src="https://images.unsplash.com/photo-1677442135703-1787eea5ce01?w=600&q=80" alt="Desenvolvimento com IA" loading="lazy" />
+            <div class="mega-card__img-overlay"></div>
+            <span class="mega-card__badge">⚡ Serviço 02</span>
+          </div>
+          <div class="mega-card__body">
+            <h3 class="mega-card__title">Desenvolvimento de IA para Empresas</h3>
+            <p class="mega-card__desc">Transformamos seu problema em uma solução de IA funcional em tempo recorde. MVP entregue em até 2 semanas.</p>
+            <div class="mega-card__tags">
+              <span>Chatbots</span>
+              <span>Análise preditiva</span>
+              <span>Automação</span>
+            </div>
+            <div class="mega-card__cta">
+              Saiba mais
+              <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M5 12h14M12 5l7 7-7 7"/></svg>
+            </div>
+          </div>
+        </a>
+
+        <a href="servicos.html#consultoria" class="mega-card">
+          <div class="mega-card__img">
+            <img src="https://images.unsplash.com/photo-1600880292203-757bb62b4baf?w=600&q=80" alt="Consultoria em IA" loading="lazy" />
+            <div class="mega-card__img-overlay"></div>
+            <span class="mega-card__badge">💡 Serviço 03</span>
+          </div>
+          <div class="mega-card__body">
+            <h3 class="mega-card__title">Consultoria em IA para Empresas</h3>
+            <p class="mega-card__desc">Estratégia personalizada para adotar IA no seu negócio. Do diagnóstico ao roadmap executável com ROI claro.</p>
+            <div class="mega-card__tags">
+              <span>Diagnóstico</span>
+              <span>Roadmap de IA</span>
+              <span>ROI garantido</span>
+            </div>
+            <div class="mega-card__cta">
+              Saiba mais
+              <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M5 12h14M12 5l7 7-7 7"/></svg>
+            </div>
+          </div>
+        </a>
+
+      </div>
+    </div>
+
     <!-- Mobile menu -->
     <div class="mobile-menu" id="mobileMenu">
       <a href="#funcionalidades" class="mobile-menu__link">Funcionalidades</a>

@@ -19,35 +19,10 @@
       <nav class="navbar__links" id="navLinks">
         <a href="index.html#funcionalidades">Funcionalidades</a>
         <a href="index.html#como-funciona">Como funciona</a>
-        <div class="nav-dropdown">
-          <a href="servicos.html" class="nav-dropdown__trigger" style="color: var(--primary); font-weight: 600;">
-            Serviços
-            <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="6 9 12 15 18 9"/></svg>
-          </a>
-          <div class="nav-dropdown__menu">
-            <a href="#treinamento" class="nav-dropdown__item">
-              <div class="nav-dropdown__icon">🎓</div>
-              <div>
-                <div class="nav-dropdown__item-title">Treinamento em IA</div>
-                <div class="nav-dropdown__item-desc">Capacite sua equipe com IA aplicada</div>
-              </div>
-            </a>
-            <a href="#desenvolvimento" class="nav-dropdown__item">
-              <div class="nav-dropdown__icon">⚡</div>
-              <div>
-                <div class="nav-dropdown__item-title">Desenvolvimento com IA</div>
-                <div class="nav-dropdown__item-desc">Soluções sob medida em tempo recorde</div>
-              </div>
-            </a>
-            <a href="#automacao" class="nav-dropdown__item">
-              <div class="nav-dropdown__icon">🤖</div>
-              <div>
-                <div class="nav-dropdown__item-title">Automação de Processos</div>
-                <div class="nav-dropdown__item-desc">Elimine tarefas repetitivas com IA</div>
-              </div>
-            </a>
-          </div>
-        </div>
+        <button class="mega-trigger open" id="megaTrigger" aria-expanded="true" aria-controls="megaMenu" style="color: var(--primary); font-weight: 600;">
+          Serviços
+          <svg class="mega-trigger__chevron" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="6 9 12 15 18 9"/></svg>
+        </button>
         <a href="index.html#depoimentos">Depoimentos</a>
         <a href="index.html#precos">Preços</a>
       </nav>
@@ -59,13 +34,59 @@
         <span></span><span></span><span></span>
       </button>
     </div>
+
+    <!-- MEGA MENU -->
+    <div class="mega-menu" id="megaMenu" role="region" aria-label="Serviços">
+      <div class="mega-menu__inner container">
+        <a href="#treinamento" class="mega-card">
+          <div class="mega-card__img">
+            <img src="https://images.unsplash.com/photo-1552664730-d307ca884978?w=600&q=80" alt="Treinamento em IA" loading="lazy" />
+            <div class="mega-card__img-overlay"></div>
+            <span class="mega-card__badge">🎓 Serviço 01</span>
+          </div>
+          <div class="mega-card__body">
+            <h3 class="mega-card__title">Treinamento em IA para Empresas</h3>
+            <p class="mega-card__desc">Capacite sua equipe para usar IA no dia a dia — vendas, marketing, operações e gestão.</p>
+            <div class="mega-card__tags"><span>Workshops práticos</span><span>Trilha personalizada</span><span>Certificação</span></div>
+            <div class="mega-card__cta">Saiba mais <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M5 12h14M12 5l7 7-7 7"/></svg></div>
+          </div>
+        </a>
+        <a href="#desenvolvimento" class="mega-card">
+          <div class="mega-card__img">
+            <img src="https://images.unsplash.com/photo-1677442135703-1787eea5ce01?w=600&q=80" alt="Desenvolvimento com IA" loading="lazy" />
+            <div class="mega-card__img-overlay"></div>
+            <span class="mega-card__badge">⚡ Serviço 02</span>
+          </div>
+          <div class="mega-card__body">
+            <h3 class="mega-card__title">Desenvolvimento de IA para Empresas</h3>
+            <p class="mega-card__desc">Transformamos seu problema em uma solução de IA funcional. MVP em até 2 semanas.</p>
+            <div class="mega-card__tags"><span>Chatbots</span><span>Análise preditiva</span><span>Automação</span></div>
+            <div class="mega-card__cta">Saiba mais <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M5 12h14M12 5l7 7-7 7"/></svg></div>
+          </div>
+        </a>
+        <a href="#consultoria" class="mega-card">
+          <div class="mega-card__img">
+            <img src="https://images.unsplash.com/photo-1600880292203-757bb62b4baf?w=600&q=80" alt="Consultoria em IA" loading="lazy" />
+            <div class="mega-card__img-overlay"></div>
+            <span class="mega-card__badge">💡 Serviço 03</span>
+          </div>
+          <div class="mega-card__body">
+            <h3 class="mega-card__title">Consultoria em IA para Empresas</h3>
+            <p class="mega-card__desc">Estratégia personalizada para adotar IA. Do diagnóstico ao roadmap executável com ROI claro.</p>
+            <div class="mega-card__tags"><span>Diagnóstico</span><span>Roadmap de IA</span><span>ROI garantido</span></div>
+            <div class="mega-card__cta">Saiba mais <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M5 12h14M12 5l7 7-7 7"/></svg></div>
+          </div>
+        </a>
+      </div>
+    </div>
+
     <div class="mobile-menu" id="mobileMenu">
       <a href="index.html#funcionalidades" class="mobile-menu__link">Funcionalidades</a>
       <a href="index.html#como-funciona" class="mobile-menu__link">Como funciona</a>
       <a href="servicos.html" class="mobile-menu__link">Serviços</a>
       <a href="#treinamento" class="mobile-menu__link mobile-menu__link--sub">↳ Treinamento em IA</a>
       <a href="#desenvolvimento" class="mobile-menu__link mobile-menu__link--sub">↳ Desenvolvimento com IA</a>
-      <a href="#automacao" class="mobile-menu__link mobile-menu__link--sub">↳ Automação de Processos</a>
+      <a href="#consultoria" class="mobile-menu__link mobile-menu__link--sub">↳ Consultoria em IA</a>
       <a href="index.html#depoimentos" class="mobile-menu__link">Depoimentos</a>
       <a href="index.html#precos" class="mobile-menu__link">Preços</a>
       <div class="mobile-menu__actions">
@@ -101,8 +122,8 @@
         <a href="#desenvolvimento" class="services-nav__item" data-target="desenvolvimento">
           ⚡ Desenvolvimento com IA
         </a>
-        <a href="#automacao" class="services-nav__item" data-target="automacao">
-          🤖 Automação de Processos
+        <a href="#consultoria" class="services-nav__item" data-target="consultoria">
+          💡 Consultoria em IA
         </a>
       </div>
     </nav>
@@ -111,6 +132,15 @@
          BLOCO 1 — TREINAMENTO EM IA
     ============================== -->
     <section class="service-block" id="treinamento">
+      <div class="service-block__banner">
+        <img src="https://images.unsplash.com/photo-1552664730-d307ca884978?w=1400&q=80" alt="Treinamento em IA para Empresas" loading="lazy" />
+        <div class="service-block__banner-overlay">
+          <div class="container">
+            <span class="service-block__banner-tag">🎓 Serviço 01</span>
+            <h2 class="service-block__banner-title">Treinamento em IA<br/><span>para Empresas</span></h2>
+          </div>
+        </div>
+      </div>
       <div class="container service-block__inner">
 
         <!-- Conteúdo -->
@@ -244,6 +274,15 @@
          BLOCO 2 — DESENVOLVIMENTO IA
     ============================== -->
     <section class="service-block service-block--dark" id="desenvolvimento">
+      <div class="service-block__banner service-block__banner--dark">
+        <img src="https://images.unsplash.com/photo-1677442135703-1787eea5ce01?w=1400&q=80" alt="Desenvolvimento de IA para Empresas" loading="lazy" />
+        <div class="service-block__banner-overlay">
+          <div class="container">
+            <span class="service-block__banner-tag">⚡ Serviço 02</span>
+            <h2 class="service-block__banner-title">Desenvolvimento de IA<br/><span>para Empresas</span></h2>
+          </div>
+        </div>
+      </div>
       <div class="container service-block__inner service-block__inner--reverse">
 
         <!-- Processo -->
@@ -377,59 +416,68 @@
     </section>
 
     <!-- ==============================
-         BLOCO 3 — AUTOMAÇÃO
+         BLOCO 3 — CONSULTORIA EM IA
     ============================== -->
-    <section class="service-block service-block--alt" id="automacao">
+    <section class="service-block service-block--alt" id="consultoria">
+      <div class="service-block__banner">
+        <img src="https://images.unsplash.com/photo-1600880292203-757bb62b4baf?w=1400&q=80" alt="Consultoria em IA para Empresas" loading="lazy" />
+        <div class="service-block__banner-overlay">
+          <div class="container">
+            <span class="service-block__banner-tag">💡 Serviço 03</span>
+            <h2 class="service-block__banner-title">Consultoria em IA<br/><span>para Empresas</span></h2>
+          </div>
+        </div>
+      </div>
       <div class="container service-block__inner">
 
         <!-- Conteúdo -->
         <div class="reveal">
-          <span class="service-block__tag">🤖 Serviço 03</span>
+          <span class="service-block__tag">💡 Serviço 03</span>
           <h2 class="service-block__title">
-            Automação de Processos<br />
-            <span class="text-primary">com Inteligência Artificial</span>
+            Consultoria em IA<br />
+            <span class="text-primary">para Empresas</span>
           </h2>
           <p class="service-block__desc">
-            Cada hora gasta em tarefas manuais e repetitivas é uma hora a menos crescendo. Mapeamos os processos do seu negócio e implementamos automações inteligentes que eliminam o retrabalho, reduzem erros e liberam sua equipe para o que realmente importa.
+            Antes de investir em tecnologia, você precisa de estratégia. Nossa consultoria mapeia o seu negócio, identifica as maiores oportunidades com IA e entrega um roadmap executável — com prioridades claras, custos estimados e retorno esperado em cada etapa.
           </p>
           <p class="service-block__desc" style="margin-top: -16px;">
-            Diferente das automações tradicionais, as nossas usam IA para tomar decisões contextuais — não apenas executar regras fixas. O sistema aprende, adapta e evolui com o seu negócio.
+            Não vendemos tecnologia pela tecnologia. Entendemos o seu modelo de negócio, os gargalos reais da operação e construímos junto com você um plano que faz sentido para a sua realidade — seja você uma startup ou uma empresa consolidada.
           </p>
           <ul class="service-block__benefits">
             <li class="service-block__benefit">
               <span class="service-block__benefit-check">
                 <svg viewBox="0 0 24 24" fill="none" stroke="currentColor"><polyline points="20 6 9 17 4 12"/></svg>
               </span>
-              Automação de atendimento: WhatsApp, e-mail e chat com IA
+              Diagnóstico completo de maturidade em IA da empresa
             </li>
             <li class="service-block__benefit">
               <span class="service-block__benefit-check">
                 <svg viewBox="0 0 24 24" fill="none" stroke="currentColor"><polyline points="20 6 9 17 4 12"/></svg>
               </span>
-              Fluxos de aprovação e triagem inteligente de documentos
+              Mapeamento de oportunidades com ROI estimado por iniciativa
             </li>
             <li class="service-block__benefit">
               <span class="service-block__benefit-check">
                 <svg viewBox="0 0 24 24" fill="none" stroke="currentColor"><polyline points="20 6 9 17 4 12"/></svg>
               </span>
-              Integração entre sistemas legados sem precisar trocar tudo
+              Roadmap priorizado: o que fazer agora, em 3 meses e em 1 ano
             </li>
             <li class="service-block__benefit">
               <span class="service-block__benefit-check">
                 <svg viewBox="0 0 24 24" fill="none" stroke="currentColor"><polyline points="20 6 9 17 4 12"/></svg>
               </span>
-              Relatórios e dashboards gerados automaticamente
+              Seleção de ferramentas e fornecedores sem conflito de interesse
             </li>
             <li class="service-block__benefit">
               <span class="service-block__benefit-check">
                 <svg viewBox="0 0 24 24" fill="none" stroke="currentColor"><polyline points="20 6 9 17 4 12"/></svg>
               </span>
-              Redução média de 70% no tempo de tarefas operacionais
+              Acompanhamento executivo durante toda a implementação
             </li>
           </ul>
           <div class="service-block__cta">
-            <a href="#" class="btn btn--primary">Mapear meu processo</a>
-            <a href="#" class="btn btn--outline">Calcular economia</a>
+            <a href="#" class="btn btn--primary">Agendar diagnóstico</a>
+            <a href="#" class="btn btn--outline">Ver metodologia</a>
           </div>
         </div>
 
@@ -438,7 +486,7 @@
           <div class="process">
             <div class="process__title">
               <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><circle cx="12" cy="12" r="10"/><polyline points="12 6 12 12 16 14"/></svg>
-              Implementação em 4 fases
+              Nossa metodologia de consultoria
             </div>
             <div class="process__steps">
               <div class="process__step">
@@ -447,8 +495,8 @@
                   <div class="process__line"></div>
                 </div>
                 <div class="process__content">
-                  <div class="process__step-title">Mapeamento de processos</div>
-                  <div class="process__step-desc">Analisamos todos os fluxos de trabalho para identificar gargalos, tarefas repetitivas e oportunidades de automação de alto impacto.</div>
+                  <div class="process__step-title">Imersão no negócio</div>
+                  <div class="process__step-desc">Entrevistas com líderes de cada área para entender objetivos, dores e como a empresa realmente funciona por dentro.</div>
                 </div>
               </div>
               <div class="process__step">
@@ -457,8 +505,8 @@
                   <div class="process__line"></div>
                 </div>
                 <div class="process__content">
-                  <div class="process__step-title">Priorização por ROI</div>
-                  <div class="process__step-desc">Ranqueamos as automações pelo potencial de retorno — começamos pelo que vai gerar mais resultado em menos tempo.</div>
+                  <div class="process__step-title">Diagnóstico de maturidade</div>
+                  <div class="process__step-desc">Avaliamos dados, processos, equipe e tecnologia atual para identificar onde a IA pode gerar mais impacto com menos fricção.</div>
                 </div>
               </div>
               <div class="process__step">
@@ -467,41 +515,40 @@
                   <div class="process__line"></div>
                 </div>
                 <div class="process__content">
-                  <div class="process__step-title">Implementação progressiva</div>
-                  <div class="process__step-desc">Automatizamos processo por processo, testando em paralelo com o fluxo atual para garantir zero impacto na operação.</div>
+                  <div class="process__step-title">Mapa de oportunidades</div>
+                  <div class="process__step-desc">Listamos todas as iniciativas possíveis com IA, priorizadas por facilidade de implementação × retorno financeiro esperado.</div>
                 </div>
               </div>
               <div class="process__step">
                 <div class="process__left">
                   <div class="process__num">4</div>
+                  <div class="process__line"></div>
                 </div>
                 <div class="process__content">
-                  <div class="process__step-title">Otimização contínua</div>
-                  <div class="process__step-desc">Monitoramos performance, refinamos modelos de IA e expandimos a automação para novos processos conforme a empresa cresce.</div>
+                  <div class="process__step-title">Roadmap executável</div>
+                  <div class="process__step-desc">Entregamos um plano detalhado com responsáveis, prazos, ferramentas recomendadas e budget estimado para cada fase.</div>
+                </div>
+              </div>
+              <div class="process__step">
+                <div class="process__left">
+                  <div class="process__num">5</div>
+                </div>
+                <div class="process__content">
+                  <div class="process__step-title">Suporte à execução</div>
+                  <div class="process__step-desc">Acompanhamos a implementação com check-ins quinzenais, ajustando o plano conforme os resultados aparecem.</div>
                 </div>
               </div>
             </div>
           </div>
 
-          <!-- Processos que automatizamos -->
-          <div style="margin-top: 16px; background: #fff; border: 1px solid var(--border); border-radius: 14px; padding: 20px;">
-            <div style="font-size: 0.75rem; font-weight: 600; color: var(--text-muted); text-transform: uppercase; letter-spacing: 0.08em; margin-bottom: 14px;">Exemplos de automações</div>
-            <div style="display: flex; flex-direction: column; gap: 10px;">
-              <div style="display: flex; align-items: center; gap: 10px; font-size: 0.875rem; color: var(--text-muted);">
-                <span style="color: var(--primary); font-size: 1rem;">→</span> Qualificação e resposta automática de leads no WhatsApp
-              </div>
-              <div style="display: flex; align-items: center; gap: 10px; font-size: 0.875rem; color: var(--text-muted);">
-                <span style="color: var(--primary); font-size: 1rem;">→</span> Emissão e cobrança automática de notas e boletos
-              </div>
-              <div style="display: flex; align-items: center; gap: 10px; font-size: 0.875rem; color: var(--text-muted);">
-                <span style="color: var(--primary); font-size: 1rem;">→</span> Triagem e resposta de e-mails com IA contextual
-              </div>
-              <div style="display: flex; align-items: center; gap: 10px; font-size: 0.875rem; color: var(--text-muted);">
-                <span style="color: var(--primary); font-size: 1rem;">→</span> Geração de relatórios e apresentações automáticas
-              </div>
-              <div style="display: flex; align-items: center; gap: 10px; font-size: 0.875rem; color: var(--text-muted);">
-                <span style="color: var(--primary); font-size: 1rem;">→</span> Onboarding de clientes 100% automatizado
-              </div>
+          <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 12px; margin-top: 16px;">
+            <div style="background: #EFF6FF; border-radius: 14px; padding: 20px; text-align: center;">
+              <div style="font-size: 1.75rem; font-weight: 800; color: var(--primary); line-height: 1;">3×</div>
+              <div style="font-size: 0.8125rem; color: var(--text-muted); margin-top: 4px;">retorno médio sobre o investimento</div>
+            </div>
+            <div style="background: #F0FDF4; border-radius: 14px; padding: 20px; text-align: center;">
+              <div style="font-size: 1.75rem; font-weight: 800; color: #16A34A; line-height: 1;">30d</div>
+              <div style="font-size: 0.8125rem; color: var(--text-muted); margin-top: 4px;">para ter o roadmap completo</div>
             </div>
           </div>
         </div>
@@ -547,7 +594,7 @@
         <div class="footer__col-title">Serviços</div>
         <a href="#treinamento" class="footer__link">Treinamento em IA</a>
         <a href="#desenvolvimento" class="footer__link">Desenvolvimento com IA</a>
-        <a href="#automacao" class="footer__link">Automação de Processos</a>
+        <a href="#consultoria" class="footer__link">Consultoria em IA</a>
       </div>
       <div class="footer__col">
         <div class="footer__col-title">Empresa</div>
@@ -576,7 +623,7 @@
   <script src="script.js"></script>
   <script>
     // Active nav pill on scroll
-    const sections = ['treinamento', 'desenvolvimento', 'automacao'];
+    const sections = ['treinamento', 'desenvolvimento', 'consultoria'];
     const navItems = document.querySelectorAll('.services-nav__item');
 
     const sectionObserver = new IntersectionObserver((entries) => {
