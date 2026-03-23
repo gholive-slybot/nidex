@@ -12,6 +12,53 @@ window.addEventListener('scroll', () => {
 }, { passive: true });
 
 // ===========================
+// MEGA MENU
+// ===========================
+const megaTrigger = document.getElementById('megaTrigger');
+const megaMenu    = document.getElementById('megaMenu');
+
+function openMega() {
+  megaMenu.classList.add('open');
+  megaTrigger.classList.add('open');
+  megaTrigger.setAttribute('aria-expanded', 'true');
+}
+function closeMega() {
+  megaMenu.classList.remove('open');
+  megaTrigger.classList.remove('open');
+  megaTrigger.setAttribute('aria-expanded', 'false');
+}
+
+if (megaTrigger && megaMenu) {
+  // Hover on desktop
+  let hoverTimer;
+  megaTrigger.addEventListener('mouseenter', () => { clearTimeout(hoverTimer); openMega(); });
+  megaMenu.addEventListener('mouseenter',    () => { clearTimeout(hoverTimer); });
+  megaTrigger.addEventListener('mouseleave', () => { hoverTimer = setTimeout(closeMega, 120); });
+  megaMenu.addEventListener('mouseleave',    () => { hoverTimer = setTimeout(closeMega, 120); });
+
+  // Click toggle (mobile / keyboard)
+  megaTrigger.addEventListener('click', (e) => {
+    e.stopPropagation();
+    megaMenu.classList.contains('open') ? closeMega() : openMega();
+  });
+
+  // Close on outside click
+  document.addEventListener('click', (e) => {
+    if (!navbar.contains(e.target)) closeMega();
+  });
+
+  // Close on Escape
+  document.addEventListener('keydown', (e) => {
+    if (e.key === 'Escape') closeMega();
+  });
+
+  // Close when clicking a mega card link
+  megaMenu.querySelectorAll('.mega-card').forEach(card => {
+    card.addEventListener('click', closeMega);
+  });
+}
+
+// ===========================
 // MOBILE MENU
 // ===========================
 const navToggle = document.getElementById('navToggle');
@@ -19,6 +66,7 @@ const mobileMenu = document.getElementById('mobileMenu');
 
 navToggle.addEventListener('click', () => {
   mobileMenu.classList.toggle('open');
+  closeMega();
 });
 
 // Close mobile menu when a link is clicked
