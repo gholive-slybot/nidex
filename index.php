@@ -59,7 +59,7 @@ try {
     <div class="mega-menu" id="megaMenu" role="region" aria-label="Serviços">
       <div class="mega-menu__inner container">
 
-        <a href="treinamento.html" class="mega-card">
+        <a href="/treinamento" class="mega-card">
           <div class="mega-card__img">
             <img src="https://images.unsplash.com/photo-1552664730-d307ca884978?w=600&q=80" alt="Treinamento em IA" loading="lazy" />
             <div class="mega-card__img-overlay"></div>
@@ -80,7 +80,7 @@ try {
           </div>
         </a>
 
-        <a href="desenvolvimento.html" class="mega-card">
+        <a href="/desenvolvimento" class="mega-card">
           <div class="mega-card__img">
             <img src="https://images.unsplash.com/photo-1677442135703-1787eea5ce01?w=600&q=80" alt="Desenvolvimento com IA" loading="lazy" />
             <div class="mega-card__img-overlay"></div>
@@ -101,7 +101,7 @@ try {
           </div>
         </a>
 
-        <a href="consultoria.html" class="mega-card">
+        <a href="/consultoria" class="mega-card">
           <div class="mega-card__img">
             <img src="https://images.unsplash.com/photo-1600880292203-757bb62b4baf?w=600&q=80" alt="Consultoria em IA" loading="lazy" />
             <div class="mega-card__img-overlay"></div>
@@ -129,10 +129,10 @@ try {
     <div class="mobile-menu" id="mobileMenu">
       <a href="#funcionalidades" class="mobile-menu__link">Funcionalidades</a>
       <a href="#como-funciona" class="mobile-menu__link">Como funciona</a>
-      <a href="servicos.html" class="mobile-menu__link">Serviços</a>
-      <a href="treinamento.html" class="mobile-menu__link mobile-menu__link--sub">↳ Treinamento em IA</a>
-      <a href="desenvolvimento.html" class="mobile-menu__link mobile-menu__link--sub">↳ Desenvolvimento com IA</a>
-      <a href="consultoria.html" class="mobile-menu__link mobile-menu__link--sub">↳ Consultoria em IA</a>
+      <a href="/servicos" class="mobile-menu__link">Serviços</a>
+      <a href="/treinamento" class="mobile-menu__link mobile-menu__link--sub">↳ Treinamento em IA</a>
+      <a href="/desenvolvimento" class="mobile-menu__link mobile-menu__link--sub">↳ Desenvolvimento com IA</a>
+      <a href="/consultoria" class="mobile-menu__link mobile-menu__link--sub">↳ Consultoria em IA</a>
       <a href="#depoimentos" class="mobile-menu__link">Depoimentos</a>
       <a href="#precos" class="mobile-menu__link">Preços</a>
       <div class="mobile-menu__actions">

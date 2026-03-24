@@ -15,16 +15,16 @@
   <!-- NAVBAR -->
   <header class="navbar scrolled" id="navbar">
     <div class="container navbar__inner">
-      <a href="index.html" class="navbar__logo" style="color: var(--primary)">nidex</a>
+      <a href="/" class="navbar__logo" style="color: var(--primary)">nidex</a>
       <nav class="navbar__links" id="navLinks">
-        <a href="index.html#funcionalidades">Funcionalidades</a>
-        <a href="index.html#como-funciona">Como funciona</a>
+        <a href="/#funcionalidades">Funcionalidades</a>
+        <a href="/#como-funciona">Como funciona</a>
         <button class="mega-trigger" id="megaTrigger" aria-expanded="false" aria-controls="megaMenu" style="color: var(--primary); font-weight: 600;">
           Serviços
           <svg class="mega-trigger__chevron" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="6 9 12 15 18 9"/></svg>
         </button>
-        <a href="index.html#depoimentos">Depoimentos</a>
-        <a href="index.html#precos">Preços</a>
+        <a href="/#depoimentos">Depoimentos</a>
+        <a href="/#precos">Preços</a>
       </nav>
       <div class="navbar__actions">
         <a href="#" class="navbar__login">Entrar</a>
@@ -38,7 +38,7 @@
     <!-- MEGA MENU -->
     <div class="mega-menu" id="megaMenu" role="region" aria-label="Serviços">
       <div class="mega-menu__inner container">
-        <a href="treinamento.html" class="mega-card">
+        <a href="/treinamento" class="mega-card">
           <div class="mega-card__img">
             <img src="https://images.unsplash.com/photo-1552664730-d307ca884978?w=600&q=80" alt="Treinamento em IA" loading="lazy" />
             <div class="mega-card__img-overlay"></div>
@@ -51,7 +51,7 @@
             <div class="mega-card__cta">Saiba mais <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M5 12h14M12 5l7 7-7 7"/></svg></div>
           </div>
         </a>
-        <a href="desenvolvimento.html" class="mega-card">
+        <a href="/desenvolvimento" class="mega-card">
           <div class="mega-card__img">
             <img src="https://images.unsplash.com/photo-1677442135703-1787eea5ce01?w=600&q=80" alt="Desenvolvimento com IA" loading="lazy" />
             <div class="mega-card__img-overlay"></div>
@@ -64,7 +64,7 @@
             <div class="mega-card__cta">Saiba mais <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M5 12h14M12 5l7 7-7 7"/></svg></div>
           </div>
         </a>
-        <a href="consultoria.html" class="mega-card">
+        <a href="/consultoria" class="mega-card">
           <div class="mega-card__img">
             <img src="https://images.unsplash.com/photo-1600880292203-757bb62b4baf?w=600&q=80" alt="Consultoria em IA" loading="lazy" />
             <div class="mega-card__img-overlay"></div>
@@ -82,14 +82,14 @@
 
     <!-- Mobile menu -->
     <div class="mobile-menu" id="mobileMenu">
-      <a href="index.html#funcionalidades" class="mobile-menu__link">Funcionalidades</a>
-      <a href="index.html#como-funciona" class="mobile-menu__link">Como funciona</a>
-      <a href="servicos.html" class="mobile-menu__link">Serviços</a>
-      <a href="treinamento.html" class="mobile-menu__link mobile-menu__link--sub">↳ Treinamento em IA</a>
-      <a href="desenvolvimento.html" class="mobile-menu__link mobile-menu__link--sub">↳ Desenvolvimento com IA</a>
-      <a href="consultoria.html" class="mobile-menu__link mobile-menu__link--sub">↳ Consultoria em IA</a>
-      <a href="index.html#depoimentos" class="mobile-menu__link">Depoimentos</a>
-      <a href="index.html#precos" class="mobile-menu__link">Preços</a>
+      <a href="/#funcionalidades" class="mobile-menu__link">Funcionalidades</a>
+      <a href="/#como-funciona" class="mobile-menu__link">Como funciona</a>
+      <a href="/servicos" class="mobile-menu__link">Serviços</a>
+      <a href="/treinamento" class="mobile-menu__link mobile-menu__link--sub">↳ Treinamento em IA</a>
+      <a href="/desenvolvimento" class="mobile-menu__link mobile-menu__link--sub">↳ Desenvolvimento com IA</a>
+      <a href="/consultoria" class="mobile-menu__link mobile-menu__link--sub">↳ Consultoria em IA</a>
+      <a href="/#depoimentos" class="mobile-menu__link">Depoimentos</a>
+      <a href="/#precos" class="mobile-menu__link">Preços</a>
       <div class="mobile-menu__actions">
         <a href="#" class="mobile-menu__login">Entrar</a>
         <a href="#" class="btn btn--primary">Começar grátis</a>
@@ -258,7 +258,7 @@
             Solicitar proposta
             <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M5 12h14M12 5l7 7-7 7"/></svg>
           </a>
-          <a href="servicos.html" class="btn btn--ghost btn--lg">
+          <a href="/servicos" class="btn btn--ghost btn--lg">
             Ver todos os serviços
           </a>
         </div>
@@ -277,9 +277,9 @@
       </div>
       <div class="footer__col">
         <div class="footer__col-title">Serviços</div>
-        <a href="treinamento.html" class="footer__link">Treinamento em IA</a>
-        <a href="desenvolvimento.html" class="footer__link">Desenvolvimento com IA</a>
-        <a href="consultoria.html" class="footer__link">Consultoria em IA</a>
+        <a href="/treinamento" class="footer__link">Treinamento em IA</a>
+        <a href="/desenvolvimento" class="footer__link">Desenvolvimento com IA</a>
+        <a href="/consultoria" class="footer__link">Consultoria em IA</a>
       </div>
       <div class="footer__col">
         <div class="footer__col-title">Empresa</div>

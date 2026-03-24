@@ -3,22 +3,35 @@ Options -Indexes
 # Serve index.php before index.html
 DirectoryIndex index.php index.html
 
-# PHP error logging (não exibir na tela em produção)
+# PHP error logging
 php_flag display_errors Off
 php_flag log_errors On
 
 # Charset padrão
 AddDefaultCharset UTF-8
 
-# Segurança básica
-<FilesMatch "^(config\.php|install\.php)$">
+# ── URLs amigáveis ────────────────────────────────────────────────────────────
+<IfModule mod_rewrite.c>
+    RewriteEngine On
+    RewriteBase /
+
+    # Não reescrever arquivos ou diretórios que existem
+    RewriteCond %{REQUEST_FILENAME} !-f
+    RewriteCond %{REQUEST_FILENAME} !-d
+
+    # Páginas principais
+    RewriteRule ^treinamento/?$    treinamento.php    [L]
+    RewriteRule ^desenvolvimento/?$ desenvolvimento.php [L]
+    RewriteRule ^consultoria/?$    consultoria.php    [L]
+    RewriteRule ^servicos/?$       servicos.php       [L]
+    RewriteRule ^blog/?$           blog.php           [L]
+
+    # Posts do blog: /blog/meu-post → post.php?slug=meu-post
+    RewriteRule ^blog/([a-z0-9\-]+)/?$ post.php?slug=$1 [L,QSA]
+</IfModule>
+
+# ── Segurança ─────────────────────────────────────────────────────────────────
+<FilesMatch "^config\.php$">
     Order Allow,Deny
     Deny from all
 </FilesMatch>
-
-# Permitir acesso ao install.php apenas localmente (remova após instalar)
-<Files "install.php">
-    Order Deny,Allow
-    Deny from all
-    Allow from all
-</Files>
