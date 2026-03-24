@@ -1,10 +1,8 @@
 <?php
-require_once __DIR__ . '/config.php';
-require_once __DIR__ . '/cms/includes/db.php';
-
-// Fetch 3 latest published posts with category names
 $latestPosts = [];
 try {
+    require_once __DIR__ . '/config.php';
+    require_once __DIR__ . '/cms/includes/db.php';
     $pdo = getDB();
     $stmt = $pdo->query(
         "SELECT p.title, p.slug, p.excerpt, p.cover_image, p.published_at,
@@ -16,7 +14,7 @@ try {
          LIMIT 3"
     );
     $latestPosts = $stmt->fetchAll();
-} catch (Exception $e) {
+} catch (Throwable $e) {
     // Silently fail — blog section will show empty state
 }
 ?>
