@@ -1,0 +1,24 @@
+Options -Indexes
+
+# Serve index.php before index.html
+DirectoryIndex index.php index.html
+
+# PHP error logging (não exibir na tela em produção)
+php_flag display_errors Off
+php_flag log_errors On
+
+# Charset padrão
+AddDefaultCharset UTF-8
+
+# Segurança básica
+<FilesMatch "^(config\.php|install\.php)$">
+    Order Allow,Deny
+    Deny from all
+</FilesMatch>
+
+# Permitir acesso ao install.php apenas localmente (remova após instalar)
+<Files "install.php">
+    Order Deny,Allow
+    Deny from all
+    Allow from all
+</Files>
