@@ -227,3 +227,25 @@ document.querySelectorAll('.hero__stat-value').forEach(el => {
   el.dataset.originalText = el.textContent.trim();
   statsObserver2.observe(el);
 });
+
+// ===========================
+// FAQ ACCORDION
+// ===========================
+document.querySelectorAll('.faq-item__trigger').forEach(trigger => {
+  trigger.addEventListener('click', () => {
+    const item = trigger.closest('.faq-item');
+    const isOpen = item.classList.contains('open');
+
+    // Close all
+    document.querySelectorAll('.faq-item').forEach(i => {
+      i.classList.remove('open');
+      i.querySelector('.faq-item__trigger').setAttribute('aria-expanded', 'false');
+    });
+
+    // Open clicked if it was closed
+    if (!isOpen) {
+      item.classList.add('open');
+      trigger.setAttribute('aria-expanded', 'true');
+    }
+  });
+});

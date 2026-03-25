@@ -3,12 +3,12 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Desenvolvimento de IA para Empresas — Nidex</title>
-  <meta name="description" content="Transformamos o problema do seu negócio em uma solução de IA funcional em tempo recorde. Chatbots, análise preditiva, automação de documentos. MVP em até 2 semanas." />
+  <title>Treinamento em IA para Empresas — Nidex</title>
+  <meta name="description" content="Capacite sua equipe para usar IA no dia a dia. Trilhas personalizadas por área: vendas, marketing, operações e gestão. Workshops práticos com casos reais do seu setor." />
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet" />
-  <link rel="stylesheet" href="style.css" />
+  <link rel="stylesheet" href="/style.css" />
 </head>
 <body>
 
@@ -100,26 +100,77 @@
   <main>
 
     <!-- HERO BANNER -->
-    <section class="service-block service-block--dark">
-      <div class="service-block__banner service-block__banner--dark">
-        <img src="https://images.unsplash.com/photo-1677442135703-1787eea5ce01?w=1400&q=80" alt="Desenvolvimento de IA para Empresas" loading="lazy" />
+    <section class="service-block">
+      <div class="service-block__banner">
+        <img src="https://images.unsplash.com/photo-1552664730-d307ca884978?w=1400&q=80" alt="Treinamento em IA para Empresas" loading="lazy" />
         <div class="service-block__banner-overlay">
           <div class="container">
-            <span class="service-block__banner-tag">⚡ Serviço 02</span>
-            <h1 class="service-block__banner-title">Desenvolvimento de IA<br/><span>para Empresas</span></h1>
+            <span class="service-block__banner-tag">🎓 Serviço 01</span>
+            <h1 class="service-block__banner-title">Treinamento em IA<br/><span>para Empresas</span></h1>
           </div>
         </div>
       </div>
 
-      <!-- 2-COLUMN CONTENT — REVERSED layout (process LEFT, content RIGHT) -->
-      <div class="container service-block__inner service-block__inner--reverse">
+      <!-- 2-COLUMN CONTENT -->
+      <div class="container service-block__inner">
 
-        <!-- LEFT: Process card -->
+        <!-- LEFT: Content -->
         <div class="reveal">
+          <span class="service-block__tag">🎓 Serviço 01</span>
+          <h2 class="service-block__title">
+            Treinamento em IA<br />
+            <span class="text-primary">para Empresas</span>
+          </h2>
+          <p class="service-block__desc">
+            Sua equipe não precisa ser técnica para usar IA. Oferecemos programas de capacitação práticos e focados em negócio, para que cada colaborador entenda como aplicar inteligência artificial no seu dia a dia — aumentando produtividade, reduzindo retrabalho e gerando mais resultados.
+          </p>
+          <p class="service-block__desc" style="margin-top: -16px;">
+            Trabalhamos com trilhas customizadas para cada área da empresa: vendas, marketing, financeiro, atendimento ao cliente e gestão. Sem teoria desnecessária — só o que gera impacto.
+          </p>
+          <ul class="service-block__benefits">
+            <li class="service-block__benefit">
+              <span class="service-block__benefit-check">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor"><polyline points="20 6 9 17 4 12"/></svg>
+              </span>
+              Trilhas por área: vendas, marketing, operações e gestão
+            </li>
+            <li class="service-block__benefit">
+              <span class="service-block__benefit-check">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor"><polyline points="20 6 9 17 4 12"/></svg>
+              </span>
+              Workshops presenciais e online com casos reais do seu setor
+            </li>
+            <li class="service-block__benefit">
+              <span class="service-block__benefit-check">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor"><polyline points="20 6 9 17 4 12"/></svg>
+              </span>
+              Certificação interna e material de apoio permanente
+            </li>
+            <li class="service-block__benefit">
+              <span class="service-block__benefit-check">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor"><polyline points="20 6 9 17 4 12"/></svg>
+              </span>
+              Ferramentas: ChatGPT, Gemini, Copilot, Midjourney e mais
+            </li>
+            <li class="service-block__benefit">
+              <span class="service-block__benefit-check">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor"><polyline points="20 6 9 17 4 12"/></svg>
+              </span>
+              Suporte pós-treinamento por 30 dias
+            </li>
+          </ul>
+          <div class="service-block__cta">
+            <a href="#" class="btn btn--primary">Solicitar proposta</a>
+            <a href="#" class="btn btn--outline">Ver programa completo</a>
+          </div>
+        </div>
+
+        <!-- RIGHT: Process card -->
+        <div class="reveal reveal--delay">
           <div class="process">
             <div class="process__title">
               <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><circle cx="12" cy="12" r="10"/><polyline points="12 6 12 12 16 14"/></svg>
-              Processo de desenvolvimento
+              Como funciona o treinamento
             </div>
             <div class="process__steps">
               <div class="process__step">
@@ -128,8 +179,8 @@
                   <div class="process__line"></div>
                 </div>
                 <div class="process__content">
-                  <div class="process__step-title">Discovery em 48h</div>
-                  <div class="process__step-desc">Uma sessão intensa para entender o problema, mapear dados disponíveis e definir o escopo da solução com clareza.</div>
+                  <div class="process__step-title">Diagnóstico de maturidade</div>
+                  <div class="process__step-desc">Avaliamos o nível atual da equipe com IA e mapeamos as maiores oportunidades de ganho por área.</div>
                 </div>
               </div>
               <div class="process__step">
@@ -138,8 +189,8 @@
                   <div class="process__line"></div>
                 </div>
                 <div class="process__content">
-                  <div class="process__step-title">Prototipagem rápida</div>
-                  <div class="process__step-desc">Em até 1 semana entregamos um MVP funcional para validar com usuários reais antes de escalar.</div>
+                  <div class="process__step-title">Trilha personalizada</div>
+                  <div class="process__step-desc">Montamos um programa exclusivo para sua empresa com módulos práticos, casos do seu setor e ferramentas escolhidas a dedo.</div>
                 </div>
               </div>
               <div class="process__step">
@@ -148,8 +199,8 @@
                   <div class="process__line"></div>
                 </div>
                 <div class="process__content">
-                  <div class="process__step-title">Iteração com feedback</div>
-                  <div class="process__step-desc">Refinamos a solução em sprints curtos de 1 semana, incorporando feedback real da sua equipe e dos dados.</div>
+                  <div class="process__step-title">Imersão prática</div>
+                  <div class="process__step-desc">Workshops ao vivo onde a equipe aprende fazendo. Cada exercício usa dados e contextos reais do negócio.</div>
                 </div>
               </div>
               <div class="process__step">
@@ -158,8 +209,8 @@
                   <div class="process__line"></div>
                 </div>
                 <div class="process__content">
-                  <div class="process__step-title">Deploy e integração</div>
-                  <div class="process__step-desc">Entregamos em produção integrado aos seus sistemas atuais — ERP, CRM, WhatsApp, planilhas ou APIs.</div>
+                  <div class="process__step-title">Projetos internos</div>
+                  <div class="process__step-desc">Cada participante sai com um projeto de IA aplicado à sua função — algo que pode começar a usar no dia seguinte.</div>
                 </div>
               </div>
               <div class="process__step">
@@ -167,77 +218,23 @@
                   <div class="process__num">5</div>
                 </div>
                 <div class="process__content">
-                  <div class="process__step-title">Monitoramento contínuo</div>
-                  <div class="process__step-desc">Acompanhamos métricas de uso e performance em tempo real, com ajustes proativos e SLA garantido.</div>
+                  <div class="process__step-title">Acompanhamento e evolução</div>
+                  <div class="process__step-desc">30 dias de suporte pós-treinamento, revisão de métricas e novas sessões para reforçar o aprendizado.</div>
                 </div>
               </div>
             </div>
           </div>
 
-          <!-- Tech stack box -->
-          <div style="margin-top: 16px; background: rgba(255,255,255,0.04); border: 1px solid rgba(255,255,255,0.08); border-radius: 14px; padding: 20px;">
-            <div style="font-size: 0.75rem; font-weight: 600; color: rgba(255,255,255,0.3); text-transform: uppercase; letter-spacing: 0.08em; margin-bottom: 14px;">Stack de IA que usamos</div>
-            <div style="display: flex; flex-wrap: wrap; gap: 8px;">
-              <span style="background: rgba(255,255,255,0.08); color: rgba(255,255,255,0.6); font-size: 0.8125rem; padding: 6px 12px; border-radius: 8px; font-weight: 500;">GPT-4o</span>
-              <span style="background: rgba(255,255,255,0.08); color: rgba(255,255,255,0.6); font-size: 0.8125rem; padding: 6px 12px; border-radius: 8px; font-weight: 500;">Claude 3.5</span>
-              <span style="background: rgba(255,255,255,0.08); color: rgba(255,255,255,0.6); font-size: 0.8125rem; padding: 6px 12px; border-radius: 8px; font-weight: 500;">Gemini Pro</span>
-              <span style="background: rgba(255,255,255,0.08); color: rgba(255,255,255,0.6); font-size: 0.8125rem; padding: 6px 12px; border-radius: 8px; font-weight: 500;">LangChain</span>
-              <span style="background: rgba(255,255,255,0.08); color: rgba(255,255,255,0.6); font-size: 0.8125rem; padding: 6px 12px; border-radius: 8px; font-weight: 500;">RAG</span>
-              <span style="background: rgba(255,255,255,0.08); color: rgba(255,255,255,0.6); font-size: 0.8125rem; padding: 6px 12px; border-radius: 8px; font-weight: 500;">Vector DB</span>
-              <span style="background: rgba(255,255,255,0.08); color: rgba(255,255,255,0.6); font-size: 0.8125rem; padding: 6px 12px; border-radius: 8px; font-weight: 500;">Fine-tuning</span>
-              <span style="background: rgba(255,255,255,0.08); color: rgba(255,255,255,0.6); font-size: 0.8125rem; padding: 6px 12px; border-radius: 8px; font-weight: 500;">n8n</span>
+          <!-- Stats cards -->
+          <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 12px; margin-top: 16px;">
+            <div style="background: #EFF6FF; border-radius: 14px; padding: 20px; text-align: center;">
+              <div style="font-size: 1.75rem; font-weight: 800; color: var(--primary); line-height: 1;">+60%</div>
+              <div style="font-size: 0.8125rem; color: var(--text-muted); margin-top: 4px;">de produtividade média</div>
             </div>
-          </div>
-        </div>
-
-        <!-- RIGHT: Content -->
-        <div class="reveal reveal--delay">
-          <span class="service-block__tag">⚡ Serviço 02</span>
-          <h2 class="service-block__title">
-            Desenvolvimento de IA<br />
-            <span class="text-accent">para Empresas</span>
-          </h2>
-          <p class="service-block__desc">
-            Transformamos o problema do seu negócio em uma solução de IA funcional em tempo recorde. Não vendemos projetos longos e caros — entregamos valor rápido, com foco no resultado que você precisa agora.
-          </p>
-          <p class="service-block__desc" style="margin-top: -16px;">
-            Desenvolvemos desde chatbots inteligentes e assistentes internos até sistemas de análise preditiva, geração de conteúdo em escala, classificação automática de documentos e muito mais. Tudo integrado ao que você já usa.
-          </p>
-          <ul class="service-block__benefits">
-            <li class="service-block__benefit">
-              <span class="service-block__benefit-check">
-                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor"><polyline points="20 6 9 17 4 12"/></svg>
-              </span>
-              Chatbots e assistentes virtuais com contexto do seu negócio
-            </li>
-            <li class="service-block__benefit">
-              <span class="service-block__benefit-check">
-                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor"><polyline points="20 6 9 17 4 12"/></svg>
-              </span>
-              Análise preditiva: churn, demanda, precificação dinâmica
-            </li>
-            <li class="service-block__benefit">
-              <span class="service-block__benefit-check">
-                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor"><polyline points="20 6 9 17 4 12"/></svg>
-              </span>
-              Processamento inteligente de documentos e contratos
-            </li>
-            <li class="service-block__benefit">
-              <span class="service-block__benefit-check">
-                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor"><polyline points="20 6 9 17 4 12"/></svg>
-              </span>
-              Geração de conteúdo e relatórios automatizados
-            </li>
-            <li class="service-block__benefit">
-              <span class="service-block__benefit-check">
-                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor"><polyline points="20 6 9 17 4 12"/></svg>
-              </span>
-              MVP entregue em até 2 semanas
-            </li>
-          </ul>
-          <div class="service-block__cta">
-            <a href="#" class="btn btn--primary">Falar com especialista</a>
-            <a href="#" class="btn btn--ghost">Ver cases</a>
+            <div style="background: #F0FDF4; border-radius: 14px; padding: 20px; text-align: center;">
+              <div style="font-size: 1.75rem; font-weight: 800; color: #16A34A; line-height: 1;">2 sem.</div>
+              <div style="font-size: 0.8125rem; color: var(--text-muted); margin-top: 4px;">para ver os primeiros resultados</div>
+            </div>
           </div>
         </div>
 
@@ -250,15 +247,15 @@
       <div class="cta-section__glow"></div>
       <div class="container cta-section__inner reveal">
         <h2 class="cta-section__title">
-          Pronto para construir sua<br />
-          <span class="text-accent">solução de IA?</span>
+          Pronto para capacitar<br />
+          <span class="text-accent">sua equipe com IA?</span>
         </h2>
         <p class="cta-section__desc">
-          Fale com nossos especialistas e descubra como transformar o seu problema em uma solução de IA funcional em tempo recorde.
+          Fale com um especialista Nidex e receba uma proposta personalizada para o seu time. Diagnóstico gratuito, sem compromisso.
         </p>
         <div class="cta-section__btns">
           <a href="#" class="btn btn--primary btn--lg">
-            Falar com especialista
+            Solicitar proposta
             <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M5 12h14M12 5l7 7-7 7"/></svg>
           </a>
           <a href="/servicos" class="btn btn--ghost btn--lg">
@@ -308,6 +305,6 @@
     </div>
   </footer>
 
-  <script src="script.js"></script>
+  <script src="/script.js"></script>
 </body>
 </html>

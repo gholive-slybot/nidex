@@ -95,24 +95,41 @@ background: linear-gradient(135deg, #0F172A 0%, #1E3A8A 100%);
 
 ## Stack Tecnológica
 
-- **Framework**: Next.js 14+ (App Router) com TypeScript
-- **Estilização**: Tailwind CSS
-- **Componentes**: shadcn/ui
-- **Animações**: Framer Motion
-- **Ícones**: Lucide React
-- **Formulários**: React Hook Form + Zod
-- **Deploy**: Vercel
+- **Backend**: PHP 8+
+- **Frontend**: HTML5, CSS3 (custom, sem framework), JavaScript (vanilla)
+- **CMS**: PHP + MySQL (pasta `cms/`)
+- **Animações**: CSS transitions + IntersectionObserver (`script.js`)
+- **Deploy**: Apache + mod_rewrite
+
+## Estrutura de Arquivos
+
+```
+index.php          — Homepage principal
+style.css          — Todos os estilos
+script.js          — JavaScript global
+paginas/           — Páginas internas
+  ├── blog.php
+  ├── post.php
+  ├── treinamento.php
+  ├── desenvolvimento.php
+  ├── consultoria.php
+  ├── servicos.php
+  └── guideline.php
+cms/               — Painel administrativo
+api/               — Endpoints PHP (contato, etc.)
+uploads/           — Uploads de imagens
+```
 
 ---
 
 ## Regras de Desenvolvimento
 
 1. **Mobile-first** — responsivo em 375px / 768px / 1280px
-2. **Performance** — `next/image` para todas as imagens
+2. **Performance** — atributo `loading="lazy"` em todas as imagens
 3. **Acessibilidade** — tags semânticas (`<section>`, `<nav>`, `<main>`), aria-labels
-4. **Copy centralizado** — textos e dados em `lib/content.ts`, nunca hardcoded nos componentes
-5. **Componentes isolados** — cada seção em `components/sections/`
-6. **Sem erros** — `npm run build` deve passar limpo antes de qualquer entrega
+4. **Caminhos absolutos** — páginas em `paginas/` usam `/style.css` e `/script.js`
+5. **Seções novas** — adicionar em `index.php` + estilos em `style.css`
+6. **PHP includes** — páginas em `paginas/` usam `dirname(__DIR__)` para includes do config
 
 ---
 
