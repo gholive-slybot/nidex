@@ -105,13 +105,14 @@ img { max-width: 100%; display: block; }
   height: 72px;
 }
 .navbar__logo {
-  font-size: 1.5rem;
-  font-weight: 800;
-  color: #fff;
-  letter-spacing: -0.02em;
-  transition: color 0.3s;
+  display: flex;
+  align-items: center;
 }
-.navbar.scrolled .navbar__logo { color: var(--primary); }
+.navbar__logo img {
+  height: 30px;
+  width: auto;
+  display: block;
+}
 
 .navbar__links {
   display: flex;
@@ -941,10 +942,12 @@ img { max-width: 100%; display: block; }
   padding-bottom: 48px;
 }
 .footer__logo {
-  font-size: 1.5rem;
-  font-weight: 800;
-  color: #fff;
   margin-bottom: 12px;
+}
+.footer__logo img {
+  height: 28px;
+  width: auto;
+  display: block;
 }
 .footer__desc { font-size: 0.875rem; color: rgba(255,255,255,0.35); line-height: 1.7; }
 .footer__col-title {

@@ -199,6 +199,64 @@
 
   <div class="container" style="padding-bottom: 96px;">
 
+    <!-- ── LOGO ── -->
+    <section class="gl-section">
+      <h2 class="gl-section__title">Logo</h2>
+
+      <div style="display:grid;grid-template-columns:repeat(auto-fill,minmax(280px,1fr));gap:16px;margin-bottom:32px">
+
+        <!-- Fundo claro -->
+        <div style="border-radius:16px;overflow:hidden;border:1px solid var(--border)">
+          <div style="background:#E5E7EB;padding:40px;display:flex;align-items:center;justify-content:center;min-height:120px">
+            <img src="/uploads/logo-nidex-cor.svg" alt="nidex" style="height:40px;width:auto" />
+          </div>
+          <div style="background:#fff;padding:16px">
+            <div style="font-size:0.875rem;font-weight:700;color:var(--text-primary);margin-bottom:4px">Fundo claro</div>
+            <div style="font-size:0.75rem;color:var(--text-muted)">Usar <code>logo-nidex-cor.svg</code> — gradiente verde→azul</div>
+          </div>
+        </div>
+
+        <!-- Fundo escuro -->
+        <div style="border-radius:16px;overflow:hidden;border:1px solid var(--border)">
+          <div style="background:#000;padding:40px;display:flex;align-items:center;justify-content:center;min-height:120px">
+            <img src="/uploads/logo-nidex-cor.svg" alt="nidex" style="height:40px;width:auto" />
+          </div>
+          <div style="background:#fff;padding:16px">
+            <div style="font-size:0.875rem;font-weight:700;color:var(--text-primary);margin-bottom:4px">Fundo escuro</div>
+            <div style="font-size:0.75rem;color:var(--text-muted)">Usar <code>logo-nidex-cor.svg</code> — contrasta bem em preto/navy</div>
+          </div>
+        </div>
+
+        <!-- Fundo azul/primário -->
+        <div style="border-radius:16px;overflow:hidden;border:1px solid var(--border)">
+          <div style="background:#2563EB;padding:40px;display:flex;align-items:center;justify-content:center;min-height:120px">
+            <img src="/uploads/logo-nidex-white.svg" alt="nidex" style="height:40px;width:auto" />
+          </div>
+          <div style="background:#fff;padding:16px">
+            <div style="font-size:0.875rem;font-weight:700;color:var(--text-primary);margin-bottom:4px">Fundo primário (azul)</div>
+            <div style="font-size:0.75rem;color:var(--text-muted)">Usar <code>logo-nidex-white.svg</code> — versão toda branca</div>
+          </div>
+        </div>
+
+      </div>
+
+      <table class="gl-tokens">
+        <tr><th>Arquivo</th><th>Uso</th></tr>
+        <tr><td>logo-nidex-cor.svg</td><td>Navbar, rodapé dark, fundos claros e escuros (preto/navy)</td></tr>
+        <tr><td>logo-nidex-white.svg</td><td>Fundos na cor primária (#2563EB) ou gradientes azuis</td></tr>
+      </table>
+
+      <div style="margin-top:20px;background:var(--bg-light);border:1px solid var(--border);border-radius:12px;padding:20px">
+        <div style="font-size:0.875rem;font-weight:600;color:var(--text-primary);margin-bottom:8px">Regras de uso</div>
+        <ul style="font-size:0.875rem;color:var(--text-muted);line-height:1.8;margin:0;padding-left:20px">
+          <li>Nunca distorcer, rotacionar ou alterar as cores da logo</li>
+          <li>Espaço de proteção mínimo: equivalente à altura da letra "n"</li>
+          <li>Tamanho mínimo: 24px de altura</li>
+          <li>Sempre em minúsculo — nunca "NIDEX" ou "Nidex"</li>
+        </ul>
+      </div>
+    </section>
+
     <!-- ── CORES ── -->
     <section class="gl-section">
       <h2 class="gl-section__title">Cores</h2>
