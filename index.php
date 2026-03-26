@@ -496,7 +496,7 @@ try {
           <div class="phone-mockup" id="phoneMockup">
             <div class="phone-mockup__wrapper">
               <div class="phone-mockup__screen-inner">
-                <img src="/uploads/mobile-bg.jpg" alt="Nidex App" class="phone-mockup__screen-img" loading="lazy" />
+                <img src="/uploads/mobile-app-screen.png" alt="Nidex App" class="phone-mockup__screen-img" loading="lazy" />
               </div>
               <img src="/uploads/iphone-moc.png" class="phone-mockup__img" alt="Nidex Mobile App" loading="lazy">
             </div>
