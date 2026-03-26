@@ -157,8 +157,9 @@ try {
             Novo · IA integrada ao seu negócio
           </div>
           <h1 class="hero__headline">
-            Um ecossistema inteligente<br />
-            <span class="text-accent">para empreendedores.</span>
+            Um ecossistema<br />
+            inteligente para<br />
+            <span class="text-accent">empreendedores.</span>
           </h1>
           <p class="hero__subtext">
             CRM, financeiro, cobranças e gestão de projetos integrados com IA nativa. Tudo que você precisa para crescer, em um único lugar.
