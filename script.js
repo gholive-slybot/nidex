@@ -368,9 +368,8 @@ if (mobileBg) {
         const rect = mobileSection.getBoundingClientRect();
         const viewH = window.innerHeight;
         if (rect.top < viewH && rect.bottom > 0) {
-          // progress 0→1 conforme a seção passa pela viewport
           const progress = (viewH - rect.top) / (viewH + mobileSection.offsetHeight);
-          const translateY = Math.round((progress - 0.5) * 120);
+          const translateY = Math.round((progress - 0.5) * 100);
           mobileBg.style.transform = `translateY(${translateY}px)`;
         }
         ticking = false;

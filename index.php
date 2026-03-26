@@ -489,10 +489,11 @@ try {
 
     <!-- MOBILE SECTION -->
     <section class="mobile-section" id="mobileSection">
-      <!-- Parallax background image -->
-      <div class="mobile-section__bg" id="mobileBg"></div>
-      <!-- Dark gradient overlay -->
-      <div class="mobile-section__overlay"></div>
+      <!-- App screenshot à esquerda com parallax -->
+      <div class="mobile-section__img-wrap" id="mobileBg">
+        <img src="/uploads/mobile-app-screen.png" alt="Nidex App" class="mobile-section__app-img" loading="lazy" />
+        <div class="mobile-section__img-fade"></div>
+      </div>
 
       <div class="container mobile-section__inner">
         <div class="mobile-section__content reveal">
