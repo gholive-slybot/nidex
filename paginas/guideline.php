@@ -203,27 +203,38 @@
     <section class="gl-section">
       <h2 class="gl-section__title">Logo</h2>
 
-      <div style="display:grid;grid-template-columns:repeat(auto-fill,minmax(280px,1fr));gap:16px;margin-bottom:32px">
+      <div style="display:grid;grid-template-columns:repeat(auto-fill,minmax(260px,1fr));gap:16px;margin-bottom:32px">
 
-        <!-- Fundo claro -->
+        <!-- Fundo claro — logo preta -->
         <div style="border-radius:16px;overflow:hidden;border:1px solid var(--border)">
-          <div style="background:#0B64F4;padding:40px;display:flex;align-items:center;justify-content:center;min-height:120px">
+          <div style="background:#F8FAFC;padding:40px;display:flex;align-items:center;justify-content:center;min-height:120px">
+            <img src="/uploads/logo-black.svg" alt="nidex" style="height:40px;width:auto" />
+          </div>
+          <div style="background:#fff;padding:16px">
+            <div style="font-size:0.875rem;font-weight:700;color:var(--text-primary);margin-bottom:4px">Fundo claro — versão preta</div>
+            <div style="font-size:0.75rem;color:var(--text-muted)">Usar <code>logo-black.svg</code> — máximo contraste em fundos claros</div>
+          </div>
+        </div>
+
+        <!-- Fundo claro — logo cor -->
+        <div style="border-radius:16px;overflow:hidden;border:1px solid var(--border)">
+          <div style="background:#F8FAFC;padding:40px;display:flex;align-items:center;justify-content:center;min-height:120px">
             <img src="/uploads/logo-nidex-cor.svg" alt="nidex" style="height:40px;width:auto" />
           </div>
           <div style="background:#fff;padding:16px">
-            <div style="font-size:0.875rem;font-weight:700;color:var(--text-primary);margin-bottom:4px">Fundo claro</div>
-            <div style="font-size:0.75rem;color:var(--text-muted)">Usar <code>logo-nidex-cor.svg</code> — gradiente verde→azul</div>
+            <div style="font-size:0.875rem;font-weight:700;color:var(--text-primary);margin-bottom:4px">Fundo claro — versão cor</div>
+            <div style="font-size:0.75rem;color:var(--text-muted)">Usar <code>logo-nidex-cor.svg</code> — versão colorida em fundos neutros</div>
           </div>
         </div>
 
         <!-- Fundo escuro -->
         <div style="border-radius:16px;overflow:hidden;border:1px solid var(--border)">
-          <div style="background:#0B64F4;padding:40px;display:flex;align-items:center;justify-content:center;min-height:120px">
-            <img src="/uploads/logo-nidex-cor.svg" alt="nidex" style="height:40px;width:auto" />
+          <div style="background:#0F172A;padding:40px;display:flex;align-items:center;justify-content:center;min-height:120px">
+            <img src="/uploads/logo-nidex-white.svg" alt="nidex" style="height:40px;width:auto" />
           </div>
           <div style="background:#fff;padding:16px">
-            <div style="font-size:0.875rem;font-weight:700;color:var(--text-primary);margin-bottom:4px">Fundo escuro</div>
-            <div style="font-size:0.75rem;color:var(--text-muted)">Usar <code>logo-nidex-cor.svg</code> — contrasta bem em preto/navy</div>
+            <div style="font-size:0.875rem;font-weight:700;color:var(--text-primary);margin-bottom:4px">Fundo escuro (navy)</div>
+            <div style="font-size:0.75rem;color:var(--text-muted)">Usar <code>logo-nidex-white.svg</code> — versão branca em fundos escuros</div>
           </div>
         </div>
 
@@ -234,7 +245,7 @@
           </div>
           <div style="background:#fff;padding:16px">
             <div style="font-size:0.875rem;font-weight:700;color:var(--text-primary);margin-bottom:4px">Fundo primário (azul)</div>
-            <div style="font-size:0.75rem;color:var(--text-muted)">Usar <code>logo-nidex-white.svg</code> — versão toda branca</div>
+            <div style="font-size:0.75rem;color:var(--text-muted)">Usar <code>logo-nidex-white.svg</code> — versão branca em fundos azuis</div>
           </div>
         </div>
 
@@ -242,8 +253,9 @@
 
       <table class="gl-tokens">
         <tr><th>Arquivo</th><th>Uso</th></tr>
-        <tr><td>logo-nidex-cor.svg</td><td>Navbar, rodapé dark, fundos claros e escuros (preto/navy)</td></tr>
-        <tr><td>logo-nidex-white.svg</td><td>Fundos na cor primária (#0B64F4) ou gradientes azuis</td></tr>
+        <tr><td>logo-black.svg</td><td>Fundos claros — máximo contraste (branco, cinza claro)</td></tr>
+        <tr><td>logo-nidex-cor.svg</td><td>Fundos claros neutros — versão colorida com gradiente</td></tr>
+        <tr><td>logo-nidex-white.svg</td><td>Fundos escuros (navy) e fundos na cor primária (#0B64F4)</td></tr>
       </table>
 
       <div style="margin-top:20px;background:var(--bg-light);border:1px solid var(--border);border-radius:12px;padding:20px">
