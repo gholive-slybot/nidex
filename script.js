@@ -251,6 +251,110 @@ document.querySelectorAll('.faq-item__trigger').forEach(trigger => {
 });
 
 // ===========================
+// AI CHAT — typing animation
+// ===========================
+(function () {
+  const messagesEl = document.getElementById('aiMessages');
+  const inputEl    = document.getElementById('aiInputText');
+  const cursorEl   = document.getElementById('aiCursor');
+  if (!messagesEl || !inputEl) return;
+
+  const exchanges = [
+    {
+      user: 'Crie um relatório de vendas do trimestre',
+      ai:   'Pronto! Vendas do Q3: R$ 284.500 (+18% vs Q2). Top produto: Consultoria Premium. Detalhes no dashboard.'
+    },
+    {
+      user: 'Quais clientes estão inadimplentes?',
+      ai:   'Encontrei 7 clientes com pagamentos vencidos. O maior débito é de R$ 12.800 (Empresa Silva & Filhos, 45 dias).'
+    },
+    {
+      user: 'Registre R$ 4.520 do cliente Marcos',
+      ai:   'Pagamento registrado! Fatura #1082 marcada como paga. Saldo do Marcos: R$ 0,00. Recibo enviado por e-mail.'
+    },
+    {
+      user: 'Projete o fluxo de caixa dos próximos 30 dias',
+      ai:   'Projeção: entradas R$ 96.300 · saídas R$ 71.400 · saldo previsto R$ +24.900. Risco: 2 contratos vencendo.'
+    }
+  ];
+
+  let exIdx = 0;
+  let started = false;
+
+  function typeText(el, text, speed, cb) {
+    let i = 0;
+    el.textContent = '';
+    const t = setInterval(() => {
+      el.textContent += text[i++];
+      if (i >= text.length) { clearInterval(t); if (cb) cb(); }
+    }, speed);
+  }
+
+  function addBubble(type, text) {
+    const div = document.createElement('div');
+    div.className = 'ai-bubble ai-bubble--' + type;
+    if (type === 'ai') {
+      const dots = document.createElement('div');
+      dots.className = 'ai-typing-dots';
+      dots.innerHTML = '<span></span><span></span><span></span>';
+      messagesEl.appendChild(dots);
+      messagesEl.scrollTop = messagesEl.scrollHeight;
+      return new Promise(resolve => {
+        setTimeout(() => {
+          dots.remove();
+          div.textContent = text;
+          messagesEl.appendChild(div);
+          messagesEl.scrollTop = messagesEl.scrollHeight;
+          setTimeout(resolve, 800);
+        }, 1400);
+      });
+    } else {
+      div.textContent = text;
+      messagesEl.appendChild(div);
+      messagesEl.scrollTop = messagesEl.scrollHeight;
+      return Promise.resolve();
+    }
+  }
+
+  async function runExchange() {
+    const ex = exchanges[exIdx % exchanges.length];
+    exIdx++;
+
+    // Type user message in input bar
+    await new Promise(resolve => typeText(inputEl, ex.user, 42, resolve));
+    await new Promise(r => setTimeout(r, 400));
+
+    // Send — clear input, add user bubble
+    inputEl.textContent = '';
+    await addBubble('user', ex.user);
+
+    // AI responds
+    await addBubble('ai', ex.ai);
+
+    // Pause then next
+    await new Promise(r => setTimeout(r, 2200));
+
+    // Keep only last 6 bubbles to avoid overflow
+    while (messagesEl.children.length > 6) messagesEl.firstChild.remove();
+
+    runExchange();
+  }
+
+  // Start when section enters viewport
+  const observer = new IntersectionObserver(entries => {
+    entries.forEach(e => {
+      if (e.isIntersecting && !started) {
+        started = true;
+        setTimeout(runExchange, 800);
+        observer.disconnect();
+      }
+    });
+  }, { threshold: 0.3 });
+
+  observer.observe(document.getElementById('ia') || messagesEl);
+})();
+
+// ===========================
 // PHONE MOCKUP — parallax scroll
 // ===========================
 const phoneMockup = document.getElementById('phoneMockup');

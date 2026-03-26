@@ -29,6 +29,7 @@ try {
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
   <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,400&display=swap" rel="stylesheet" />
   <link rel="stylesheet" href="style.css" />
+  <link rel="icon" href="/uploads/favicon.svg" type="image/svg+xml" />
 </head>
 <body>
 
@@ -43,7 +44,7 @@ try {
           Serviços
           <svg class="mega-trigger__chevron" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="6 9 12 15 18 9"/></svg>
         </button>
-        <a href="#precos">Preços</a>
+        <a href="#orcamento">Orçamento</a>
         <a href="#faq">FAQ</a>
       </nav>
       <div class="navbar__actions">
@@ -133,7 +134,7 @@ try {
       <a href="/treinamento" class="mobile-menu__link mobile-menu__link--sub">↳ Treinamento em IA</a>
       <a href="/desenvolvimento" class="mobile-menu__link mobile-menu__link--sub">↳ Desenvolvimento com IA</a>
       <a href="/consultoria" class="mobile-menu__link mobile-menu__link--sub">↳ Consultoria em IA</a>
-      <a href="#precos" class="mobile-menu__link">Preços</a>
+      <a href="#orcamento" class="mobile-menu__link">Orçamento</a>
       <a href="#faq" class="mobile-menu__link">FAQ</a>
       <div class="mobile-menu__actions">
         <a href="#" class="mobile-menu__login">Entrar</a>
@@ -417,46 +418,65 @@ try {
             <span class="text-accent">A IA executa.</span>
           </h2>
           <p class="ai-section__desc">
-            A inteligência artificial embarcada em todo o sistema. Uma conversação em linguagem natural para realizar qualquer ação.
+            IA embarcada em todo o sistema. Converse em linguagem natural para executar qualquer ação — sem cliques, sem formulários, sem perder tempo.
           </p>
+          <ul class="ai-section__features">
+            <li>
+              <span class="ai-section__feat-icon">
+                <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M5 12h14M12 5l7 7-7 7"/></svg>
+              </span>
+              Relatórios gerados com um comando de voz ou texto
+            </li>
+            <li>
+              <span class="ai-section__feat-icon">
+                <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M5 12h14M12 5l7 7-7 7"/></svg>
+              </span>
+              Movimentações financeiras registradas automaticamente
+            </li>
+            <li>
+              <span class="ai-section__feat-icon">
+                <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M5 12h14M12 5l7 7-7 7"/></svg>
+              </span>
+              Previsão de fluxo de caixa e alertas de risco
+            </li>
+            <li>
+              <span class="ai-section__feat-icon">
+                <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M5 12h14M12 5l7 7-7 7"/></svg>
+              </span>
+              Clientes e oportunidades gerenciados por voz
+            </li>
+            <li>
+              <span class="ai-section__feat-icon">
+                <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M5 12h14M12 5l7 7-7 7"/></svg>
+              </span>
+              Respostas rápidas baseadas nos dados do seu negócio
+            </li>
+          </ul>
           <a href="#contato" class="btn btn--primary open-modal">
             Experimentar a IA
             <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M5 12h14M12 5l7 7-7 7"/></svg>
           </a>
         </div>
 
-        <!-- Right: chat UI -->
+        <!-- Right: chat UI animado -->
         <div class="ai-chat reveal reveal--delay">
           <div class="ai-chat__header">
             <div class="ai-chat__avatar">
               <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg>
             </div>
-            <span class="ai-chat__name">nidex IA</span>
+            <div class="ai-chat__head-text">
+              <span class="ai-chat__name">nidex IA</span>
+              <span class="ai-chat__sub">Assistente do seu negócio</span>
+            </div>
             <div class="ai-chat__status">
               <span class="ai-chat__dot"></span>
               Online
             </div>
           </div>
-          <div class="ai-chat__prompts">
-            <div class="ai-chat__prompt">
-              <span class="ai-chat__arrow">→</span>
-              Crie um relatório de vendas do último trimestre
-            </div>
-            <div class="ai-chat__prompt">
-              <span class="ai-chat__arrow">→</span>
-              Me mostre os clientes inadimplentes há mais de 30 dias
-            </div>
-            <div class="ai-chat__prompt">
-              <span class="ai-chat__arrow">→</span>
-              Registre o pagamento do cliente Marcos de R$ 4.520
-            </div>
-            <div class="ai-chat__prompt">
-              <span class="ai-chat__arrow">→</span>
-              Projete o fluxo de caixa para os próximos 30 dias
-            </div>
-          </div>
+          <div class="ai-chat__messages" id="aiMessages"></div>
           <div class="ai-chat__input">
-            <span class="ai-chat__placeholder">Digite o que você precisa fazer...</span>
+            <span class="ai-chat__placeholder" id="aiInputText"></span>
+            <span class="ai-chat__cursor" id="aiCursor"></span>
             <button class="ai-chat__send" aria-label="Enviar">
               <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M5 12h14M12 5l7 7-7 7"/></svg>
             </button>
@@ -613,92 +633,54 @@ try {
       </div>
     </section>
 
-    <!-- PRICING -->
-    <section id="precos" class="section section--light">
-      <div class="container">
-        <div class="section-header reveal">
-          <span class="section-label">Preços</span>
-          <h2 class="section-title">
-            Quanto mais sua equipe cresce,<br />
-            <span class="text-primary">menos você paga.</span>
-          </h2>
-          <p class="section-desc">Teste grátis por 14 dias. Sem cartão de crédito. Cancele quando quiser.</p>
+    <!-- ORÇAMENTO -->
+    <section id="orcamento" class="orcamento-section">
+      <div class="orcamento-section__bg"></div>
+      <div class="container orcamento-section__inner reveal">
+        <div class="orcamento-section__label">
+          <span class="section-label section-label--light">Investimento</span>
         </div>
-        <div class="pricing-grid pricing-grid--4">
-
-          <div class="pricing-card reveal">
-            <div class="pricing-users">1 usuário</div>
-            <div class="pricing-name">Individual</div>
-            <p class="pricing-desc">Para quem trabalha solo e precisa de controle total.</p>
-            <div class="pricing-price">
-              <span class="pricing-currency">R$</span>99
-              <span class="pricing-period">/mês</span>
+        <h2 class="orcamento-section__title">
+          Um orçamento feito<br />
+          <span class="text-accent">para o seu negócio.</span>
+        </h2>
+        <p class="orcamento-section__desc">
+          Cada empresa tem um ritmo diferente. Por isso não trabalhamos com planos engessados — criamos uma proposta sob medida para o seu tamanho, time e objetivos.
+        </p>
+        <div class="orcamento-section__items">
+          <div class="orcamento-item">
+            <div class="orcamento-item__icon">
+              <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"/><circle cx="9" cy="7" r="4"/><path d="M23 21v-2a4 4 0 0 0-3-3.87"/><path d="M16 3.13a4 4 0 0 1 0 7.75"/></svg>
             </div>
-            <ul class="pricing-features">
-              <li>CRM com até 500 contatos</li>
-              <li>Financeiro completo</li>
-              <li>Cobranças (até 50/mês)</li>
-              <li>Tarefas e projetos</li>
-              <li>Suporte por chat</li>
-            </ul>
-            <a href="#contato" class="btn btn--outline btn--full open-modal">Começar grátis</a>
-          </div>
-
-          <div class="pricing-card pricing-card--featured reveal">
-            <div class="pricing-badge">Popular</div>
-            <div class="pricing-users">Até 5 usuários</div>
-            <div class="pricing-name">Gestão Pequena</div>
-            <p class="pricing-desc">Para pequenas equipes que querem crescer com organização.</p>
-            <div class="pricing-price">
-              <span class="pricing-currency">R$</span>85
-              <span class="pricing-period">/usuário/mês</span>
+            <div>
+              <div class="orcamento-item__title">Equipe de qualquer tamanho</div>
+              <div class="orcamento-item__desc">Do empreendedor solo até times de 100+ pessoas.</div>
             </div>
-            <ul class="pricing-features">
-              <li>Tudo do Individual</li>
-              <li>CRM ilimitado</li>
-              <li>Cobranças ilimitadas</li>
-              <li>IA integrada</li>
-              <li>Suporte prioritário</li>
-            </ul>
-            <a href="#contato" class="btn btn--white btn--full open-modal">Começar grátis</a>
           </div>
-
-          <div class="pricing-card reveal">
-            <div class="pricing-users">Usuários ilimitados</div>
-            <div class="pricing-name">Sem Limitações</div>
-            <p class="pricing-desc">Para times que precisam escalar sem limitações.</p>
-            <div class="pricing-price">
-              <span class="pricing-currency">R$</span>75
-              <span class="pricing-period">/usuário/mês</span>
+          <div class="orcamento-item">
+            <div class="orcamento-item__icon">
+              <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="2" y="3" width="20" height="14" rx="2"/><polyline points="8 21 12 17 16 21"/></svg>
             </div>
-            <ul class="pricing-features">
-              <li>Tudo do Gestão Pequena</li>
-              <li>Automações avançadas</li>
-              <li>Relatórios personalizados</li>
-              <li>API e integrações</li>
-              <li>Onboarding dedicado</li>
-            </ul>
-            <a href="#contato" class="btn btn--outline btn--full open-modal">Começar grátis</a>
-          </div>
-
-          <div class="pricing-card reveal">
-            <div class="pricing-users">Multi-empresa</div>
-            <div class="pricing-name">Empresas</div>
-            <p class="pricing-desc">Para empresas com processos complexos e time de vendas.</p>
-            <div class="pricing-price pricing-price--consult">
-              Sob consulta
+            <div>
+              <div class="orcamento-item__title">Módulos que fazem sentido</div>
+              <div class="orcamento-item__desc">Contrate só o que você usa. Sem cobrar pelo que não precisa.</div>
             </div>
-            <ul class="pricing-features">
-              <li>Tudo do Sem Limitações</li>
-              <li>Multi-empresa</li>
-              <li>SLA contratual</li>
-              <li>Gerente de sucesso</li>
-              <li>Suporte 24/7</li>
-            </ul>
-            <a href="#contato" class="btn btn--outline btn--full open-modal">Falar com consultor</a>
           </div>
-
+          <div class="orcamento-item">
+            <div class="orcamento-item__icon">
+              <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="22 12 18 12 15 21 9 3 6 12 2 12"/></svg>
+            </div>
+            <div>
+              <div class="orcamento-item__title">Escala junto com você</div>
+              <div class="orcamento-item__desc">O plano cresce conforme o seu negócio evolui.</div>
+            </div>
+          </div>
         </div>
+        <a href="#contato" class="btn btn--primary btn--lg open-modal">
+          Receber meu orçamento
+          <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M5 12h14M12 5l7 7-7 7"/></svg>
+        </a>
+        <p class="orcamento-section__note">Resposta em até 1 dia útil · Sem compromisso</p>
       </div>
     </section>
 
@@ -773,7 +755,7 @@ try {
       <div class="footer__col">
         <div class="footer__col-title">Produto</div>
         <a href="#funcionalidades" class="footer__link">Funcionalidades</a>
-        <a href="#precos" class="footer__link">Preços</a>
+        <a href="#orcamento" class="footer__link">Orçamento</a>
         <a href="#" class="footer__link">Integrações</a>
         <a href="#" class="footer__link">Novidades</a>
       </div>
