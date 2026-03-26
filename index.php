@@ -503,44 +503,14 @@ try {
         <!-- Right: phone mockup -->
         <div class="phone-mockup reveal reveal--delay" id="phoneMockup">
           <div class="phone-mockup__wrapper">
-            <!-- App screen content — displayed inside the iPhone frame -->
+            <!-- Gradient screen shown behind the iPhone frame -->
             <div class="phone-mockup__screen-inner">
-              <div class="phone-mockup__topbar">
-                <span class="phone-mockup__brand">nidex</span>
-                <div class="phone-mockup__dot-btn"></div>
+              <div class="phone-mockup__screen-logo">
+                <img src="/uploads/logo-nidex-white.svg" alt="nidex" />
               </div>
-              <div class="phone-mockup__kpis">
-                <div class="phone-mockup__kpi">
-                  <div class="phone-mockup__kpi-label">Receita</div>
-                  <div class="phone-mockup__kpi-value">R$ 48k</div>
-                  <div class="phone-mockup__kpi-change">↑ este mês</div>
-                </div>
-                <div class="phone-mockup__kpi">
-                  <div class="phone-mockup__kpi-label">Clientes</div>
-                  <div class="phone-mockup__kpi-value">142</div>
-                  <div class="phone-mockup__kpi-change">↑ este mês</div>
-                </div>
-              </div>
-              <div class="phone-mockup__chart">
-                <div class="phone-mockup__chart-label">Fluxo de caixa</div>
-                <div class="phone-mockup__bars">
-                  <div class="phone-mockup__bar" style="height:40%"></div>
-                  <div class="phone-mockup__bar" style="height:65%"></div>
-                  <div class="phone-mockup__bar" style="height:48%"></div>
-                  <div class="phone-mockup__bar" style="height:80%"></div>
-                  <div class="phone-mockup__bar" style="height:62%"></div>
-                  <div class="phone-mockup__bar phone-mockup__bar--active" style="height:88%"></div>
-                  <div class="phone-mockup__bar" style="height:75%"></div>
-                </div>
-              </div>
-              <div class="phone-mockup__nav">
-                <div class="phone-mockup__nav-item phone-mockup__nav-item--active">CRM</div>
-                <div class="phone-mockup__nav-item">Fin.</div>
-                <div class="phone-mockup__nav-item">Cobr.</div>
-                <div class="phone-mockup__nav-item">IA</div>
-              </div>
+              <div class="phone-mockup__screen-tagline">Seu negócio na palma da mão</div>
             </div>
-            <!-- iPhone mockup image overlaid on top -->
+            <!-- iPhone frame overlay -->
             <img src="/uploads/iphone-moc.png" class="phone-mockup__img" alt="Nidex Mobile App" loading="lazy">
           </div>
           <div class="phone-mockup__glow"></div>
