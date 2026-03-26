@@ -26,6 +26,7 @@ AddDefaultCharset UTF-8
     RewriteRule ^servicos/?$       paginas/servicos.php       [L]
     RewriteRule ^blog/?$           paginas/blog.php           [L]
     RewriteRule ^guideline/?$      paginas/guideline.php      [L]
+    RewriteRule ^nhs/?$            paginas/nhs.php            [L]
 
     # Posts do blog: /blog/meu-post → post.php?slug=meu-post
     RewriteRule ^blog/([a-z0-9\-]+)/?$ paginas/post.php?slug=$1 [L,QSA]

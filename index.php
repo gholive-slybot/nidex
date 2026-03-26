@@ -47,6 +47,7 @@ try {
         </button>
         <a href="#orcamento">Orçamento</a>
         <a href="#faq">FAQ</a>
+        <a href="/nhs">NHS</a>
       </nav>
       <div class="navbar__actions">
         <a href="#" class="navbar__login">Entrar</a>
@@ -137,6 +138,7 @@ try {
       <a href="/consultoria" class="mobile-menu__link mobile-menu__link--sub">↳ Consultoria em IA</a>
       <a href="#orcamento" class="mobile-menu__link">Orçamento</a>
       <a href="#faq" class="mobile-menu__link">FAQ</a>
+      <a href="/nhs" class="mobile-menu__link">NHS</a>
       <div class="mobile-menu__actions">
         <a href="#" class="mobile-menu__login">Entrar</a>
         <a href="#contato" class="btn btn--primary open-modal">Começar grátis</a>
