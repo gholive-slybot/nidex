@@ -20,6 +20,7 @@ AddDefaultCharset UTF-8
     RewriteCond %{REQUEST_FILENAME} !-d
 
     # Páginas principais (pasta site/paginas/)
+    RewriteRule ^run/?$             site/paginas/run.php            [L]
     RewriteRule ^treinamento/?$    site/paginas/treinamento.php    [L]
     RewriteRule ^desenvolvimento/?$ site/paginas/desenvolvimento.php [L]
     RewriteRule ^consultoria/?$    site/paginas/consultoria.php    [L]

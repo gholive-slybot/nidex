@@ -3,17 +3,97 @@
   <!-- NAVBAR -->
   <header class="navbar" id="navbar">
     <div class="container navbar__inner">
-      <a href="#" class="navbar__logo"><img src="/site/uploads/logo-black.svg" alt="nidex" /></a>
+      <a href="/" class="navbar__logo"><img src="/site/uploads/logo-black.svg" alt="nidex" /></a>
+
       <nav class="navbar__links" id="navLinks">
-        <a href="#funcionalidades">Funcionalidades</a>
-        <a href="#ia">IA</a>
-        <button class="mega-trigger" id="megaTrigger" aria-expanded="false" aria-controls="megaMenu">
-          Serviços
-          <svg class="mega-trigger__chevron" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="6 9 12 15 18 9"/></svg>
-        </button>
-        <a href="#orcamento">Orçamento</a>
-        <a href="#faq">FAQ</a>
+
+        <!-- Nidex.Suite dropdown -->
+        <div class="nav-dropdown" id="dropSuite">
+          <button class="nav-dropdown__trigger" aria-expanded="false" aria-controls="menuSuite">
+            Nidex.Suite
+            <svg class="nav-dropdown__chevron" width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="6 9 12 15 18 9"/></svg>
+          </button>
+          <div class="nav-dropdown__menu" id="menuSuite" role="menu">
+            <a href="/#hero" class="nav-dropdown__item" role="menuitem">
+              <div class="nav-dropdown__icon nav-dropdown__icon--blue">
+                <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M3 9l9-7 9 7v11a2 2 0 01-2 2H5a2 2 0 01-2-2z"/></svg>
+              </div>
+              <div>
+                <strong>O que é</strong>
+                <span>Conheça o ecossistema Nidex</span>
+              </div>
+            </a>
+            <a href="/#modulos" class="nav-dropdown__item" role="menuitem">
+              <div class="nav-dropdown__icon nav-dropdown__icon--blue">
+                <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="3" y="3" width="7" height="7"/><rect x="14" y="3" width="7" height="7"/><rect x="14" y="14" width="7" height="7"/><rect x="3" y="14" width="7" height="7"/></svg>
+              </div>
+              <div>
+                <strong>Módulos</strong>
+                <span>CRM, financeiro, tarefas e mais</span>
+              </div>
+            </a>
+            <a href="/#ia" class="nav-dropdown__item" role="menuitem">
+              <div class="nav-dropdown__icon nav-dropdown__icon--accent">
+                <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="3"/><path d="M12 1v4M12 19v4M4.22 4.22l2.83 2.83M16.95 16.95l2.83 2.83M1 12h4M19 12h4M4.22 19.78l2.83-2.83M16.95 7.05l2.83-2.83"/></svg>
+              </div>
+              <div>
+                <strong>IA Embarcada</strong>
+                <span>Inteligência artificial no core</span>
+              </div>
+            </a>
+          </div>
+        </div>
+
+        <!-- Nidex.Run dropdown -->
+        <div class="nav-dropdown" id="dropRun">
+          <button class="nav-dropdown__trigger" aria-expanded="false" aria-controls="menuRun">
+            Nidex.Run
+            <svg class="nav-dropdown__chevron" width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="6 9 12 15 18 9"/></svg>
+          </button>
+          <div class="nav-dropdown__menu" id="menuRun" role="menu">
+            <a href="/run#academy" class="nav-dropdown__item" role="menuitem">
+              <div class="nav-dropdown__icon nav-dropdown__icon--blue">
+                <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 2L2 7l10 5 10-5-10-5z"/><path d="M2 17l10 5 10-5"/><path d="M2 12l10 5 10-5"/></svg>
+              </div>
+              <div>
+                <strong>Nidex.Academy</strong>
+                <span>Treinamento in company e online</span>
+              </div>
+            </a>
+            <a href="/run#projects" class="nav-dropdown__item" role="menuitem">
+              <div class="nav-dropdown__icon nav-dropdown__icon--accent">
+                <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polygon points="13 2 3 14 12 14 11 22 21 10 12 10 13 2"/></svg>
+              </div>
+              <div>
+                <strong>Nidex.Projects</strong>
+                <span>Sites, apps e softwares com IA</span>
+              </div>
+            </a>
+            <a href="/run#cowork" class="nav-dropdown__item" role="menuitem">
+              <div class="nav-dropdown__icon nav-dropdown__icon--blue">
+                <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="3"/><path d="M19.07 4.93a10 10 0 0 1 0 14.14M4.93 4.93a10 10 0 0 0 0 14.14"/></svg>
+              </div>
+              <div>
+                <strong>Nidex.Cowork</strong>
+                <span>IA integrada ao seu software atual</span>
+              </div>
+            </a>
+            <a href="/run#consulting" class="nav-dropdown__item" role="menuitem">
+              <div class="nav-dropdown__icon nav-dropdown__icon--gold">
+                <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg>
+              </div>
+              <div>
+                <strong>Nidex.Consulting</strong>
+                <span>Consultoria premium de alto impacto</span>
+              </div>
+            </a>
+          </div>
+        </div>
+
+        <a href="#contato" class="navbar__link-plain">Contato</a>
+
       </nav>
+
       <div class="navbar__actions">
         <a href="#" class="navbar__login">Entrar</a>
         <a href="#contato" class="btn btn--primary open-modal">Começar grátis</a>
@@ -23,86 +103,22 @@
       </button>
     </div>
 
-    <!-- MEGA MENU -->
-    <div class="mega-menu" id="megaMenu" role="region" aria-label="Serviços">
-      <div class="mega-menu__inner container">
-
-        <a href="/treinamento" class="mega-card">
-          <div class="mega-card__img">
-            <img src="https://images.unsplash.com/photo-1552664730-d307ca884978?w=600&q=80" alt="Treinamento em IA" loading="lazy" />
-            <div class="mega-card__img-overlay"></div>
-            <span class="mega-card__badge">🎓 Serviço 01</span>
-          </div>
-          <div class="mega-card__body">
-            <h3 class="mega-card__title">Treinamento em IA para Empresas</h3>
-            <p class="mega-card__desc">Capacite sua equipe para usar IA no dia a dia — vendas, marketing, operações e gestão. Sem precisar ser técnico.</p>
-            <div class="mega-card__tags">
-              <span>Workshops práticos</span>
-              <span>Trilha personalizada</span>
-              <span>Certificação</span>
-            </div>
-            <div class="mega-card__cta">
-              Saiba mais
-              <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M5 12h14M12 5l7 7-7 7"/></svg>
-            </div>
-          </div>
-        </a>
-
-        <a href="/desenvolvimento" class="mega-card">
-          <div class="mega-card__img">
-            <img src="https://images.unsplash.com/photo-1677442135703-1787eea5ce01?w=600&q=80" alt="Desenvolvimento com IA" loading="lazy" />
-            <div class="mega-card__img-overlay"></div>
-            <span class="mega-card__badge">⚡ Serviço 02</span>
-          </div>
-          <div class="mega-card__body">
-            <h3 class="mega-card__title">Desenvolvimento de IA para Empresas</h3>
-            <p class="mega-card__desc">Transformamos seu problema em uma solução de IA funcional em tempo recorde. MVP entregue em até 2 semanas.</p>
-            <div class="mega-card__tags">
-              <span>Chatbots</span>
-              <span>Análise preditiva</span>
-              <span>Automação</span>
-            </div>
-            <div class="mega-card__cta">
-              Saiba mais
-              <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M5 12h14M12 5l7 7-7 7"/></svg>
-            </div>
-          </div>
-        </a>
-
-        <a href="/consultoria" class="mega-card">
-          <div class="mega-card__img">
-            <img src="https://images.unsplash.com/photo-1600880292203-757bb62b4baf?w=600&q=80" alt="Consultoria em IA" loading="lazy" />
-            <div class="mega-card__img-overlay"></div>
-            <span class="mega-card__badge">💡 Serviço 03</span>
-          </div>
-          <div class="mega-card__body">
-            <h3 class="mega-card__title">Consultoria em IA para Empresas</h3>
-            <p class="mega-card__desc">Estratégia personalizada para adotar IA no seu negócio. Do diagnóstico ao roadmap executável com ROI claro.</p>
-            <div class="mega-card__tags">
-              <span>Diagnóstico</span>
-              <span>Roadmap de IA</span>
-              <span>ROI garantido</span>
-            </div>
-            <div class="mega-card__cta">
-              Saiba mais
-              <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M5 12h14M12 5l7 7-7 7"/></svg>
-            </div>
-          </div>
-        </a>
-
-      </div>
-    </div>
-
     <!-- Mobile menu -->
     <div class="mobile-menu" id="mobileMenu">
-      <a href="#funcionalidades" class="mobile-menu__link">Funcionalidades</a>
-      <a href="#ia" class="mobile-menu__link">IA</a>
-      <a href="/servicos" class="mobile-menu__link">Serviços</a>
-      <a href="/treinamento" class="mobile-menu__link mobile-menu__link--sub">↳ Treinamento em IA</a>
-      <a href="/desenvolvimento" class="mobile-menu__link mobile-menu__link--sub">↳ Desenvolvimento com IA</a>
-      <a href="/consultoria" class="mobile-menu__link mobile-menu__link--sub">↳ Consultoria em IA</a>
-      <a href="#orcamento" class="mobile-menu__link">Orçamento</a>
-      <a href="#faq" class="mobile-menu__link">FAQ</a>
+      <div class="mobile-menu__group">
+        <span class="mobile-menu__group-label">Nidex.Suite</span>
+        <a href="/#hero" class="mobile-menu__link">O que é</a>
+        <a href="/#modulos" class="mobile-menu__link">Módulos</a>
+        <a href="/#ia" class="mobile-menu__link">IA Embarcada</a>
+      </div>
+      <div class="mobile-menu__group">
+        <span class="mobile-menu__group-label">Nidex.Run</span>
+        <a href="/run#academy" class="mobile-menu__link">Academy</a>
+        <a href="/run#projects" class="mobile-menu__link">Projects</a>
+        <a href="/run#cowork" class="mobile-menu__link">Cowork</a>
+        <a href="/run#consulting" class="mobile-menu__link">Consulting</a>
+      </div>
+      <a href="#contato" class="mobile-menu__link mobile-menu__link--solo">Contato</a>
       <div class="mobile-menu__actions">
         <a href="#" class="mobile-menu__login">Entrar</a>
         <a href="#contato" class="btn btn--primary open-modal">Começar grátis</a>
