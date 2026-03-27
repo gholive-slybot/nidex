@@ -1578,3 +1578,95 @@
   background: #4ADE80;
   animation: pulse 2s infinite;
 }
+
+/* ===========================
+   HOME — RUN PREVIEW SECTION
+=========================== */
+.run-preview {
+  background: #0B1628;
+  padding: 96px 0 100px;
+}
+.run-preview__header {
+  text-align: center;
+  margin-bottom: 56px;
+}
+.run-preview__grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 20px;
+  margin-bottom: 48px;
+}
+@media (max-width: 1024px) { .run-preview__grid { grid-template-columns: repeat(2, 1fr); } }
+@media (max-width: 560px)  { .run-preview__grid { grid-template-columns: 1fr; } }
+
+.run-prev-card {
+  background: rgba(255,255,255,0.04);
+  border: 1px solid rgba(255,255,255,0.07);
+  border-radius: 20px;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  text-decoration: none;
+  color: inherit;
+  transition: transform 0.25s, box-shadow 0.25s, border-color 0.25s;
+}
+.run-prev-card:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 16px 48px rgba(0,0,0,0.3);
+  border-color: rgba(56,189,248,0.2);
+}
+.run-prev-card__img {
+  position: relative;
+  height: 160px;
+  overflow: hidden;
+}
+.run-prev-card__img img {
+  width: 100%; height: 100%;
+  object-fit: cover;
+  display: block;
+  transition: transform 0.5s ease;
+}
+.run-prev-card:hover .run-prev-card__img img { transform: scale(1.05); }
+.run-prev-card__overlay {
+  position: absolute; inset: 0;
+  background: linear-gradient(to bottom, transparent 30%, rgba(11,22,40,0.8));
+}
+.run-prev-card__body {
+  padding: 24px;
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+  gap: 8px;
+}
+.run-prev-card__icon {
+  width: 36px; height: 36px;
+  border-radius: 10px;
+  display: flex; align-items: center; justify-content: center;
+  margin-bottom: 4px;
+}
+.run-prev-card__title {
+  font-size: 1.0625rem;
+  font-weight: 800;
+  color: #fff;
+  letter-spacing: -0.01em;
+}
+.run-prev-card__desc {
+  font-size: 0.8125rem;
+  color: rgba(255,255,255,0.45);
+  line-height: 1.65;
+  flex: 1;
+}
+.run-prev-card__link {
+  display: inline-flex;
+  align-items: center;
+  gap: 5px;
+  font-size: 0.8125rem;
+  font-weight: 600;
+  color: rgba(255,255,255,0.5);
+  margin-top: 8px;
+  padding-top: 12px;
+  border-top: 1px solid rgba(255,255,255,0.06);
+  transition: color 0.2s, gap 0.2s;
+}
+.run-prev-card:hover .run-prev-card__link { color: var(--accent); gap: 8px; }
+.run-preview__cta { text-align: center; }
