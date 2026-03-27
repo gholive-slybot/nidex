@@ -1,8 +1,8 @@
 # sync-guideline.ps1
 # Reads :root CSS vars from style.css and syncs color values in guideline.php
 
-$baseDir   = Split-Path -Parent $PSScriptRoot
-$cssFile   = Join-Path $baseDir "style.css"
+$baseDir   = Split-Path -Parent $PSScriptRoot   # = NIDEX/site
+$cssFile   = Join-Path $baseDir "assets\css\variables.css"
 $guideFile = Join-Path $baseDir "paginas\guideline.php"
 
 # Read style.css and extract :root variables

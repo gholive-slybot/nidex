@@ -2,7 +2,7 @@
     <section class="mobile-section" id="mobileSection">
       <!-- App screenshot à esquerda com parallax -->
       <div class="mobile-section__img-wrap" id="mobileBg">
-        <img src="/uploads/mobile-app-screen.png" alt="Nidex App" class="mobile-section__app-img" loading="lazy" />
+        <img src="/site/uploads/mobile-app-screen.png" alt="Nidex App" class="mobile-section__app-img" loading="lazy" />
         <div class="mobile-section__img-fade"></div>
       </div>
 

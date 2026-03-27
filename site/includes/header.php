@@ -3,7 +3,7 @@
   <!-- NAVBAR -->
   <header class="navbar" id="navbar">
     <div class="container navbar__inner">
-      <a href="#" class="navbar__logo"><img src="/uploads/logo-black.svg" alt="nidex" /></a>
+      <a href="#" class="navbar__logo"><img src="/site/uploads/logo-black.svg" alt="nidex" /></a>
       <nav class="navbar__links" id="navLinks">
         <a href="#funcionalidades">Funcionalidades</a>
         <a href="#ia">IA</a>

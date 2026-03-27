@@ -161,7 +161,7 @@
     <div class="card__header">
       <p class="card__label">DALL-E 3 · OpenAI</p>
       <h1 class="card__title">Gerador de Imagens</h1>
-      <p class="card__desc">Gera imagens via IA e salva automaticamente em <code>/uploads/</code></p>
+      <p class="card__desc">Gera imagens via IA e salva automaticamente em <code>/site/uploads/</code></p>
     </div>
 
     <div class="field">
@@ -182,7 +182,7 @@
     <div class="field">
       <label>Nome do arquivo (sem extensão)</label>
       <input type="text" id="filename" placeholder="ex: hero-empreendedor" />
-      <p class="field__hint">Será salvo como <code>/uploads/[nome].png</code>. Use apenas letras, números e hífens.</p>
+      <p class="field__hint">Será salvo como <code>/site/uploads/[nome].png</code>. Use apenas letras, números e hífens.</p>
     </div>
 
     <button class="btn" id="generateBtn" onclick="generate()">

@@ -4,7 +4,7 @@
   <footer class="footer">
     <div class="container footer__inner">
       <div class="footer__brand">
-        <div class="footer__logo"><img src="/uploads/logo-nidex-white.svg" alt="nidex" /></div>
+        <div class="footer__logo"><img src="/site/uploads/logo-nidex-white.svg" alt="nidex" /></div>
         <p class="footer__desc">O ecossistema all-in-one para empreendedores que querem crescer com inteligência.</p>
       </div>
       <div class="footer__col">

@@ -18,5 +18,5 @@
   <link rel="stylesheet" href="/site/assets/css/sections.css" />
   <link rel="stylesheet" href="/site/assets/css/inner-pages.css" />
   <link rel="stylesheet" href="/site/assets/css/responsive.css" />
-  <link rel="icon" href="/uploads/favicon.png" type="image/png" />
+  <link rel="icon" href="/site/uploads/favicon.png" type="image/png" />
 </head>

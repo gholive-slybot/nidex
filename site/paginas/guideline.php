@@ -15,7 +15,7 @@
   <link rel="stylesheet" href="/site/assets/css/sections.css" />
   <link rel="stylesheet" href="/site/assets/css/inner-pages.css" />
   <link rel="stylesheet" href="/site/assets/css/responsive.css" />
-  <link rel="icon" href="/uploads/favicon.png" type="image/png" />
+  <link rel="icon" href="/site/uploads/favicon.png" type="image/png" />
   <style>
     /* ── Guideline-only overrides ── */
     body { background: #fff; }
@@ -215,7 +215,7 @@
         <!-- Fundo claro — logo preta -->
         <div style="border-radius:16px;overflow:hidden;border:1px solid var(--border)">
           <div style="background:#F8FAFC;padding:40px;display:flex;align-items:center;justify-content:center;min-height:120px">
-            <img src="/uploads/logo-black.svg" alt="nidex" style="height:40px;width:auto" />
+            <img src="/site/uploads/logo-black.svg" alt="nidex" style="height:40px;width:auto" />
           </div>
           <div style="background:#fff;padding:16px">
             <div style="font-size:0.875rem;font-weight:700;color:var(--text-primary);margin-bottom:4px">Fundo claro — versão preta</div>
@@ -226,7 +226,7 @@
         <!-- Fundo claro — logo cor -->
         <div style="border-radius:16px;overflow:hidden;border:1px solid var(--border)">
           <div style="background:#F8FAFC;padding:40px;display:flex;align-items:center;justify-content:center;min-height:120px">
-            <img src="/uploads/logo-nidex-cor.svg" alt="nidex" style="height:40px;width:auto" />
+            <img src="/site/uploads/logo-nidex-cor.svg" alt="nidex" style="height:40px;width:auto" />
           </div>
           <div style="background:#fff;padding:16px">
             <div style="font-size:0.875rem;font-weight:700;color:var(--text-primary);margin-bottom:4px">Fundo claro — versão cor</div>
@@ -237,7 +237,7 @@
         <!-- Fundo escuro -->
         <div style="border-radius:16px;overflow:hidden;border:1px solid var(--border)">
           <div style="background:#0F172A;padding:40px;display:flex;align-items:center;justify-content:center;min-height:120px">
-            <img src="/uploads/logo-nidex-white.svg" alt="nidex" style="height:40px;width:auto" />
+            <img src="/site/uploads/logo-nidex-white.svg" alt="nidex" style="height:40px;width:auto" />
           </div>
           <div style="background:#fff;padding:16px">
             <div style="font-size:0.875rem;font-weight:700;color:var(--text-primary);margin-bottom:4px">Fundo escuro (navy)</div>
@@ -248,7 +248,7 @@
         <!-- Fundo azul/primário -->
         <div style="border-radius:16px;overflow:hidden;border:1px solid var(--border)">
           <div style="background:#0B64F4;padding:40px;display:flex;align-items:center;justify-content:center;min-height:120px">
-            <img src="/uploads/logo-nidex-white.svg" alt="nidex" style="height:40px;width:auto" />
+            <img src="/site/uploads/logo-nidex-white.svg" alt="nidex" style="height:40px;width:auto" />
           </div>
           <div style="background:#fff;padding:16px">
             <div style="font-size:0.875rem;font-weight:700;color:var(--text-primary);margin-bottom:4px">Fundo primário (azul)</div>

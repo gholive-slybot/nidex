@@ -17,6 +17,6 @@
   <link rel="stylesheet" href="/site/assets/css/components.css?v=<?= filemtime(__DIR__ . '/../assets/css/components.css') ?>" />
   <link rel="stylesheet" href="/site/assets/css/sections.css?v=<?= filemtime(__DIR__ . '/../assets/css/sections.css') ?>" />
   <link rel="stylesheet" href="/site/assets/css/responsive.css?v=<?= filemtime(__DIR__ . '/../assets/css/responsive.css') ?>" />
-  <link rel="icon" href="/uploads/favicon.png" type="image/png" />
-  <link rel="shortcut icon" href="/uploads/favicon.png" />
+  <link rel="icon" href="/site/uploads/favicon.png" type="image/png" />
+  <link rel="shortcut icon" href="/site/uploads/favicon.png" />
 </head>

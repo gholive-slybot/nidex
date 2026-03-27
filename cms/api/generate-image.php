@@ -79,10 +79,10 @@ if ($httpCode !== 200 || empty($data['data'][0]['url'])) {
     exit;
 }
 
-// ── Baixa e salva a imagem em /uploads/ ───────────────────────────────────────
+// ── Baixa e salva a imagem em /site/uploads/ ─────────────────────────────────
 $imageUrl  = $data['data'][0]['url'];
-$savePath  = dirname(__DIR__) . '/uploads/' . $filename . '.png';
-$publicUrl = '/uploads/' . $filename . '.png';
+$savePath  = dirname(dirname(__DIR__)) . '/site/uploads/' . $filename . '.png';
+$publicUrl = '/site/uploads/' . $filename . '.png';
 
 $imageData = file_get_contents($imageUrl);
 if ($imageData === false) {

@@ -1,6 +1,6 @@
     <!-- HERO -->
     <section class="hero hero--photo">
-      <div class="hero__photo-bg" style="background-image:url('/uploads/man_Web.jpg')"></div>
+      <div class="hero__photo-bg" style="background-image:url('/site/uploads/man_Web.jpg')"></div>
       <div class="hero__overlay"></div>
       <div class="hero__bg-grid"></div>
       <div class="hero__glow hero__glow--1"></div>

@@ -70,14 +70,14 @@ $pageTitle = $post ? htmlspecialchars($post['title']) . ' — Blog Nidex' : 'Pos
   <link rel="stylesheet" href="/site/assets/css/sections.css" />
   <link rel="stylesheet" href="/site/assets/css/inner-pages.css" />
   <link rel="stylesheet" href="/site/assets/css/responsive.css" />
-  <link rel="icon" href="/uploads/favicon.png" type="image/png" />
+  <link rel="icon" href="/site/uploads/favicon.png" type="image/png" />
 </head>
 <body>
 
   <!-- NAVBAR -->
   <header class="navbar" id="navbar">
     <div class="container navbar__inner">
-      <a href="/" class="navbar__logo"><img src="/uploads/logo-nidex-cor.svg" alt="nidex" /></a>
+      <a href="/" class="navbar__logo"><img src="/site/uploads/logo-nidex-cor.svg" alt="nidex" /></a>
       <nav class="navbar__links" id="navLinks">
         <a href="/#funcionalidades">Funcionalidades</a>
         <a href="/#como-funciona">Como funciona</a>
@@ -263,7 +263,7 @@ $pageTitle = $post ? htmlspecialchars($post['title']) . ' — Blog Nidex' : 'Pos
   <footer class="footer">
     <div class="container footer__inner">
       <div class="footer__brand">
-        <div class="footer__logo"><img src="/uploads/logo-nidex-white.svg" alt="nidex" /></div>
+        <div class="footer__logo"><img src="/site/uploads/logo-nidex-white.svg" alt="nidex" /></div>
         <p class="footer__desc">O ecossistema all-in-one para empreendedores que querem crescer com inteligência.</p>
       </div>
       <div class="footer__col">

@@ -543,7 +543,7 @@
 .ai-section__photo {
   position: absolute;
   inset: 0;
-  background-image: url('/uploads/ia-bg.jpg');
+  background-image: url('/site/uploads/ia-bg.jpg');
   background-size: cover;
   background-position: center right;
 }
