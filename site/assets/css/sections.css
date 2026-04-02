@@ -294,7 +294,7 @@
   display: grid;
   align-items: start;
 }
-.nav-mega--suite .nav-mega__inner { grid-template-columns: 220px 1fr 220px; }
+.nav-mega--cowork .nav-mega__inner { grid-template-columns: 220px 1fr 220px; }
 .nav-mega--run   .nav-mega__inner { grid-template-columns: 220px 1fr 1fr 1fr 1fr; }
 
 .nav-mega__overview {

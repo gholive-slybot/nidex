@@ -1,22 +1,22 @@
 <?php
-$page_title       = 'Nidex.Cowork — IA integrada ao seu software atual';
-$page_description = 'Integramos IA ao sistema que você já usa via API ou webhook. Zero interrupção, zero migração. IA acoplada de forma cirúrgica ao seu fluxo de trabalho.';
+$page_title       = 'Nidex.IA Agents — Agentes de IA acoplados ao seu software';
+$page_description = 'Nossos Agentes de IA se acoplam ao software que o cliente já utiliza via API ou webhook. Zero interrupção, zero migração. Inteligência autônoma no seu fluxo de trabalho.';
 require_once dirname(dirname(__DIR__)) . '/site/includes/head-page.php';
 require_once dirname(dirname(__DIR__)) . '/site/includes/header.php';
 ?>
 
 <section class="svc-hero">
   <div class="svc-hero__bg">
-    <img src="/site/assets/img/run-cowork.jpg" alt="Nidex.Cowork" />
+    <img src="/site/assets/img/run-cowork.jpg" alt="Nidex.IA Agents" />
   </div>
   <div class="svc-hero__overlay"></div>
   <div class="container svc-hero__inner">
     <div class="svc-hero__breadcrumb">
-      <a href="/">Nidex</a><span>/</span><a href="/run">Nidex.Run</a><span>/</span>Cowork
+      <a href="/">Nidex</a><span>/</span><a href="/run">Nidex.Run</a><span>/</span>IA Agents
     </div>
-    <span class="svc-hero__label">Nidex.Run — Cowork</span>
-    <h1 class="svc-hero__title">IA no seu software.<br /><span class="text-accent">Sem parar sua operação.</span></h1>
-    <p class="svc-hero__desc">Integramos inteligência artificial ao sistema que você já usa — sem interromper processos, sem migração de dados, sem risco operacional.</p>
+    <span class="svc-hero__label">Nidex.Run — IA Agents</span>
+    <h1 class="svc-hero__title">Agentes de IA no seu software.<br /><span class="text-accent">Sem parar sua operação.</span></h1>
+    <p class="svc-hero__desc">Nossos Agentes de IA se acoplam ao sistema que você já usa — trabalhando de forma autônoma, sem interromper processos, sem migração de dados, sem risco operacional.</p>
     <div class="svc-hero__ctas">
       <a href="#contato" class="btn btn--primary open-modal">Ver compatibilidade</a>
       <a href="#contato" class="btn btn--ghost-dark">Agendar demo</a>
@@ -29,7 +29,7 @@ require_once dirname(dirname(__DIR__)) . '/site/includes/header.php';
   <div class="container">
     <div class="svc-problem__header reveal">
       <span class="section-label section-label--accent">O Desafio</span>
-      <h2 class="svc-problem__title">Seu software atual não tem IA — e trocar não é opção.</h2>
+      <h2 class="svc-problem__title">Seu software não tem Agentes de IA — e trocar não é opção.</h2>
     </div>
     <div class="svc-problem__grid">
       <div class="svc-pain reveal">
@@ -78,8 +78,8 @@ require_once dirname(dirname(__DIR__)) . '/site/includes/header.php';
     <div class="svc-solution__inner">
       <div class="reveal">
         <span class="section-label">Nossa Abordagem</span>
-        <h2 class="section-title" style="margin-top:12px">IA acoplada.<br />Operação intacta.</h2>
-        <p class="section-desc" style="margin:16px 0 28px">A Nidex desenvolve módulos de IA que se conectam ao seu software via API, webhook ou integração direta — sem alterar nada do que já funciona. Sua equipe continua usando o mesmo sistema, com superpoderes.</p>
+        <h2 class="section-title" style="margin-top:12px">Agentes acoplados.<br />Operação intacta.</h2>
+        <p class="section-desc" style="margin:16px 0 28px">A Nidex desenvolve Agentes de IA que se conectam ao seu software via API, webhook ou integração direta — atuando de forma autônoma sem alterar nada do que já funciona. Sua equipe usa o mesmo sistema, com superpoderes.</p>
         <ul class="run-block__features">
           <li><div class="run-feat__icon run-feat__icon--cyan"><svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="20 6 9 17 4 12"/></svg></div><span>Auditoria completa das APIs e pontos de integração disponíveis</span></li>
           <li><div class="run-feat__icon run-feat__icon--cyan"><svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="20 6 9 17 4 12"/></svg></div><span>Módulos de IA customizados para o seu fluxo específico</span></li>
@@ -89,7 +89,7 @@ require_once dirname(dirname(__DIR__)) . '/site/includes/header.php';
         </ul>
       </div>
       <div class="svc-solution__img reveal">
-        <img src="/site/assets/img/run-cowork.jpg" alt="Integração Nidex.Cowork" loading="lazy" />
+        <img src="/site/assets/img/run-cowork.jpg" alt="Nidex.IA Agents — Agentes acoplados" loading="lazy" />
       </div>
     </div>
   </div>
@@ -118,7 +118,7 @@ require_once dirname(dirname(__DIR__)) . '/site/includes/header.php';
   <div class="container">
     <div class="svc-deliverables__header reveal">
       <span class="section-label">O que você recebe</span>
-      <h2 class="svc-deliverables__title">Seu sistema atual com inteligência artificial</h2>
+      <h2 class="svc-deliverables__title">Seu sistema atual com Agentes de IA</h2>
     </div>
     <div class="svc-deliver-grid">
       <div class="svc-deliver reveal">
@@ -160,8 +160,8 @@ require_once dirname(dirname(__DIR__)) . '/site/includes/header.php';
   <div class="run-cta__glow"></div>
   <div class="container run-cta__inner reveal">
     <span class="section-label section-label--accent">Pronto para começar?</span>
-    <h2 class="run-cta__title">IA no seu software.<br /><span class="text-accent">Sem parar nada.</span></h2>
-    <p class="run-cta__desc">Fale com nosso time e verificamos a compatibilidade com o seu sistema em até 24h.</p>
+    <h2 class="run-cta__title">Agentes de IA no seu software.<br /><span class="text-accent">Sem parar nada.</span></h2>
+    <p class="run-cta__desc">Fale com nosso time e verificamos a compatibilidade dos nossos Agentes com o seu sistema em até 24h.</p>
     <div class="run-cta__actions">
       <a href="#contato" class="btn btn--primary open-modal">Ver compatibilidade</a>
       <a href="/run" class="btn btn--ghost-dark">Ver outros serviços</a>

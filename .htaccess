@@ -22,9 +22,11 @@ AddDefaultCharset UTF-8
     # Páginas principais (pasta site/paginas/)
     RewriteRule ^run/academy/?$     site/paginas/run-academy.php    [L]
     RewriteRule ^run/projects/?$    site/paginas/run-projects.php   [L]
+    RewriteRule ^run/ia-agents/?$   site/paginas/run-cowork.php     [L]
     RewriteRule ^run/cowork/?$      site/paginas/run-cowork.php     [L]
     RewriteRule ^run/consulting/?$  site/paginas/run-consulting.php [L]
     RewriteRule ^run/?$             site/paginas/run.php            [L]
+    RewriteRule ^cowork/?$          site/paginas/suite.php          [L]
     RewriteRule ^suite/?$           site/paginas/suite.php          [L]
     RewriteRule ^blog/?$           site/paginas/blog.php           [L]
     RewriteRule ^guideline/?$      site/paginas/guideline.php      [L]

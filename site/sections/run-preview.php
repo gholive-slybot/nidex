@@ -50,19 +50,19 @@
         </div>
       </a>
 
-      <a href="/run/cowork" class="run-prev-card reveal">
+      <a href="/run/ia-agents" class="run-prev-card reveal">
         <div class="run-prev-card__img">
-          <img src="/site/assets/img/run-cowork.jpg" alt="Nidex.Cowork" loading="lazy" />
+          <img src="/site/assets/img/run-cowork.jpg" alt="Nidex.IA Agents" loading="lazy" />
           <div class="run-prev-card__overlay"></div>
         </div>
         <div class="run-prev-card__body">
           <div class="run-prev-card__icon" style="background:#F0FDF4;color:#16A34A">
             <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="3"/><path d="M19.07 4.93a10 10 0 0 1 0 14.14M4.93 4.93a10 10 0 0 0 0 14.14"/></svg>
           </div>
-          <h3 class="run-prev-card__title">Nidex.<span class="text-accent">Cowork</span></h3>
-          <p class="run-prev-card__desc">IA integrada ao software que você já usa. Zero interrupção, zero migração.</p>
+          <h3 class="run-prev-card__title">Nidex.<span class="text-accent">IA Agents</span></h3>
+          <p class="run-prev-card__desc">Agentes de IA acoplados ao software que o cliente já utiliza. Zero interrupção, zero migração.</p>
           <span class="run-prev-card__link">
-            Ver Cowork
+            Ver IA Agents
             <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><line x1="5" y1="12" x2="19" y2="12"/><polyline points="12 5 19 12 12 19"/></svg>
           </span>
         </div>

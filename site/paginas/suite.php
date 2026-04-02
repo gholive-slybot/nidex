@@ -1,6 +1,6 @@
 <?php
-$page_title       = 'Nidex.Suite — Plataforma all-in-one para empreendedores';
-$page_description = 'CRM, financeiro, cobranças, tarefas, projetos, agenda, relatórios e IA embarcada em um único lugar. Conheça todos os módulos do Nidex.Suite.';
+$page_title       = 'Nidex.Cowork — Ecossistema all-in-one para empreendedores';
+$page_description = 'CRM, financeiro, cobranças, tarefas, projetos, agenda, relatórios e Agentes de IA embarcados em cada módulo. Conheça o Nidex.Cowork.';
 require_once dirname(dirname(__DIR__)) . '/site/includes/head-page.php';
 require_once dirname(dirname(__DIR__)) . '/site/includes/header.php';
 ?>
@@ -11,12 +11,12 @@ require_once dirname(dirname(__DIR__)) . '/site/includes/header.php';
   <div class="suite-hero__glow suite-hero__glow--1"></div>
   <div class="suite-hero__glow suite-hero__glow--2"></div>
   <div class="container suite-hero__inner">
-    <span class="suite-hero__label">Nidex.Suite</span>
+    <span class="suite-hero__label">Nidex.Cowork</span>
     <h1 class="suite-hero__title">
-      O simples completo.<br />
-      <span class="text-gradient">Tudo integrado, tudo funcionando.</span>
+      O ecossistema completo.<br />
+      <span class="text-gradient">Com Agentes de IA trabalhando por você.</span>
     </h1>
-    <p class="suite-hero__desc">CRM, financeiro, cobranças, tarefas, projetos, agenda e IA — em um único lugar. Sem planilha, sem integração manual, sem dor de cabeça.</p>
+    <p class="suite-hero__desc">CRM, financeiro, cobranças, tarefas, projetos, agenda — com <strong>Agentes de IA embarcados em cada módulo</strong>. Tudo integrado, sem planilha, sem dor de cabeça.</p>
     <div class="suite-hero__pills">
       <a href="#crm"        class="suite-pill"><span class="suite-pill__dot" style="background:#2563EB"></span>CRM</a>
       <a href="#financeiro" class="suite-pill"><span class="suite-pill__dot" style="background:#16A34A"></span>Financeiro</a>
@@ -25,7 +25,7 @@ require_once dirname(dirname(__DIR__)) . '/site/includes/header.php';
       <a href="#projetos"   class="suite-pill"><span class="suite-pill__dot" style="background:#0284C7"></span>Projetos</a>
       <a href="#agenda"     class="suite-pill"><span class="suite-pill__dot" style="background:#E11D48"></span>Agenda</a>
       <a href="#relatorios" class="suite-pill"><span class="suite-pill__dot" style="background:#D97706"></span>Relatórios</a>
-      <a href="#ia"         class="suite-pill"><span class="suite-pill__dot" style="background:#38BDF8"></span>IA Embarcada</a>
+      <a href="#ia"         class="suite-pill"><span class="suite-pill__dot" style="background:#38BDF8"></span>Agentes de IA</a>
     </div>
   </div>
 </section>
@@ -261,19 +261,19 @@ require_once dirname(dirname(__DIR__)) . '/site/includes/header.php';
       <span class="suite-block__num">08</span>
       <div class="suite-block__tag" style="background:rgba(56,189,248,0.1);color:#38BDF8;border:1px solid rgba(56,189,248,0.2)">
         <svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="3"/><path d="M12 1v4M12 19v4M4.22 4.22l2.83 2.83M16.95 16.95l2.83 2.83M1 12h4M19 12h4M4.22 19.78l2.83-2.83M16.95 7.05l2.83-2.83"/></svg>
-        IA Embarcada
+        Agentes de IA
       </div>
-      <h2 class="suite-block__title suite-block--dark">IA no coração<br /><span class="text-accent">de cada módulo.</span></h2>
-      <p class="suite-block__desc suite-block--dark">Não é um chat separado. É inteligência artificial integrada em cada parte da plataforma — sugerindo, automatizando e gerando insights em tempo real.</p>
+      <h2 class="suite-block__title suite-block--dark">Agentes trabalhando<br /><span class="text-accent">dentro do seu software.</span></h2>
+      <p class="suite-block__desc suite-block--dark">Não é um chat separado. São Agentes de IA embarcados em cada módulo — executando tarefas, tomando decisões e gerando resultados de forma autônoma.</p>
       <ul class="suite-block__features suite-block--dark">
-        <li><div class="run-feat__icon run-feat__icon--cyan"><svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="20 6 9 17 4 12"/></svg></div><span>Sugestões de próximo passo no CRM e tarefas</span></li>
-        <li><div class="run-feat__icon run-feat__icon--cyan"><svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="20 6 9 17 4 12"/></svg></div><span>Resumo automático de reuniões e e-mails</span></li>
-        <li><div class="run-feat__icon run-feat__icon--cyan"><svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="20 6 9 17 4 12"/></svg></div><span>Relatórios gerados com análise e recomendações</span></li>
-        <li><div class="run-feat__icon run-feat__icon--cyan"><svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="20 6 9 17 4 12"/></svg></div><span>Automações de fluxo criadas por linguagem natural</span></li>
+        <li><div class="run-feat__icon run-feat__icon--cyan"><svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="20 6 9 17 4 12"/></svg></div><span>Agente de vendas que age no CRM por você</span></li>
+        <li><div class="run-feat__icon run-feat__icon--cyan"><svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="20 6 9 17 4 12"/></svg></div><span>Agente financeiro com alertas e insights em tempo real</span></li>
+        <li><div class="run-feat__icon run-feat__icon--cyan"><svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="20 6 9 17 4 12"/></svg></div><span>Automações autônomas criadas por linguagem natural</span></li>
+        <li><div class="run-feat__icon run-feat__icon--cyan"><svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="20 6 9 17 4 12"/></svg></div><span>Relatórios gerados e interpretados por agentes</span></li>
       </ul>
       <div class="suite-block__ctas">
         <a href="#contato" class="btn btn--primary open-modal">Testar grátis</a>
-        <a href="/#ia" class="btn btn--ghost-dark">Ver IA na homepage</a>
+        <a href="/#ia" class="btn btn--ghost-dark">Ver Agentes na homepage</a>
       </div>
     </div>
   </div>
@@ -285,7 +285,7 @@ require_once dirname(dirname(__DIR__)) . '/site/includes/header.php';
   <div class="container run-cta__inner reveal">
     <span class="section-label section-label--accent">Comece hoje</span>
     <h2 class="run-cta__title">Tudo isso em<br /><span class="text-accent">um único lugar.</span></h2>
-    <p class="run-cta__desc">Experimente o Nidex.Suite gratuitamente e veja como é simples ter tudo integrado.</p>
+    <p class="run-cta__desc">Experimente o Nidex.Cowork gratuitamente e veja como é simples ter tudo integrado — com Agentes de IA trabalhando por você.</p>
     <div class="run-cta__actions">
       <a href="#contato" class="btn btn--primary open-modal">Começar grátis</a>
       <a href="/run" class="btn btn--ghost-dark">Conhecer o Nidex.Run</a>

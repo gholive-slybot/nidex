@@ -1,6 +1,6 @@
 <?php
 $page_title       = 'Nidex.Run — IA de Alta Performance para Empresas';
-$page_description = 'Nidex.Run executa serviços de IA de alta performance: Academy, Projects, Cowork e Consulting. Transforme sua empresa com inteligência artificial.';
+$page_description = 'Nidex.Run executa serviços de IA de alta performance: Academy, Projects, IA Agents e Consulting. Transforme sua empresa com inteligência artificial.';
 require_once dirname(dirname(__DIR__)) . '/site/includes/head-page.php';
 require_once dirname(dirname(__DIR__)) . '/site/includes/header.php';
 ?>
@@ -29,9 +29,9 @@ require_once dirname(dirname(__DIR__)) . '/site/includes/header.php';
         <span class="run-pill__dot run-pill__dot--2"></span>
         Nidex.Projects
       </a>
-      <a href="/run/cowork" class="run-pill">
+      <a href="/run/ia-agents" class="run-pill">
         <span class="run-pill__dot run-pill__dot--3"></span>
-        Nidex.Cowork
+        Nidex.IA Agents
       </a>
       <a href="/run/consulting" class="run-pill">
         <span class="run-pill__dot run-pill__dot--4"></span>
@@ -104,23 +104,23 @@ require_once dirname(dirname(__DIR__)) . '/site/includes/header.php';
         </div>
       </a>
 
-      <!-- Cowork -->
-      <a href="/run/cowork" class="run-sum-card reveal">
+      <!-- IA Agents -->
+      <a href="/run/ia-agents" class="run-sum-card reveal">
         <div class="run-sum-card__img">
-          <img src="/site/assets/img/run-cowork.jpg" alt="Nidex.Cowork" loading="lazy" />
+          <img src="/site/assets/img/run-cowork.jpg" alt="Nidex.IA Agents" loading="lazy" />
           <div class="run-sum-card__img-overlay"></div>
           <span class="run-sum-card__num">03</span>
           <span class="run-sum-card__badge">
             <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="3"/><path d="M19.07 4.93a10 10 0 0 1 0 14.14M4.93 4.93a10 10 0 0 0 0 14.14"/></svg>
-            Integração
+            Agentes Autônomos
           </span>
         </div>
         <div class="run-sum-card__body">
-          <h3 class="run-sum-card__title">Nidex.<span class="text-accent">Cowork</span></h3>
-          <p class="run-sum-card__desc">IA integrada ao software que você já usa — via API ou webhook. Sem trocar sistema, sem interromper operação. Sua plataforma atual com inteligência artificial.</p>
+          <h3 class="run-sum-card__title">Nidex.<span class="text-accent">IA Agents</span></h3>
+          <p class="run-sum-card__desc">Agentes de IA acoplados ao software que o cliente já utiliza — via API ou webhook. Sem trocar sistema, sem interromper operação. Inteligência autônoma embarcada.</p>
           <div class="run-sum-card__chips">
             <span>Zero interrupção</span>
-            <span>Integração via API</span>
+            <span>Agentes autônomos</span>
             <span>Qualquer sistema</span>
             <span>Suporte contínuo</span>
           </div>
@@ -171,7 +171,7 @@ require_once dirname(dirname(__DIR__)) . '/site/includes/header.php';
     <p class="run-cta__desc">Entre em contato e nosso time define a melhor estratégia para o seu momento.</p>
     <div class="run-cta__actions">
       <a href="#contato" class="btn btn--primary open-modal">Falar com especialista</a>
-      <a href="/" class="btn btn--ghost-dark">Conhecer o Nidex.Suite</a>
+      <a href="/cowork" class="btn btn--ghost-dark">Conhecer o Nidex.Cowork</a>
     </div>
   </div>
 </section>
