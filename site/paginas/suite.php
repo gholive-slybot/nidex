@@ -87,8 +87,7 @@ HTML;
     </div>
     <div class="suite-block__content-col">
       <div class="suite-block__content">
-        <span class="suite-block__num">01</span>
-        <div class="suite-block__tag" style="background:#EFF6FF;color:#2563EB;border:1px solid #DBEAFE">
+<div class="suite-block__tag" style="background:#EFF6FF;color:#2563EB;border:1px solid #DBEAFE">
           <svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"/><circle cx="9" cy="7" r="4"/></svg>
           CRM & Clientes
         </div>
@@ -117,8 +116,7 @@ HTML;
     </div>
     <div class="suite-block__content-col">
       <div class="suite-block__content">
-        <span class="suite-block__num">02</span>
-        <div class="suite-block__tag" style="background:#F0FDF4;color:#16A34A;border:1px solid #BBF7D0">
+<div class="suite-block__tag" style="background:#F0FDF4;color:#16A34A;border:1px solid #BBF7D0">
           <svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="12" y1="1" x2="12" y2="23"/><path d="M17 5H9.5a3.5 3.5 0 0 0 0 7h5a3.5 3.5 0 0 1 0 7H6"/></svg>
           Financeiro
         </div>
@@ -147,8 +145,7 @@ HTML;
     </div>
     <div class="suite-block__content-col">
       <div class="suite-block__content">
-        <span class="suite-block__num">03</span>
-        <div class="suite-block__tag" style="background:#FFF7ED;color:#EA580C;border:1px solid #FED7AA">
+<div class="suite-block__tag" style="background:#FFF7ED;color:#EA580C;border:1px solid #FED7AA">
           <svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="1" y="4" width="22" height="16" rx="2"/><line x1="1" y1="10" x2="23" y2="10"/></svg>
           Cobranças
         </div>
@@ -177,8 +174,7 @@ HTML;
     </div>
     <div class="suite-block__content-col">
       <div class="suite-block__content">
-        <span class="suite-block__num">04</span>
-        <div class="suite-block__tag" style="background:#FDF4FF;color:#9333EA;border:1px solid #E9D5FF">
+<div class="suite-block__tag" style="background:#FDF4FF;color:#9333EA;border:1px solid #E9D5FF">
           <svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="9 11 12 14 22 4"/><path d="M21 12v7a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h11"/></svg>
           Tarefas
         </div>
@@ -207,8 +203,7 @@ HTML;
     </div>
     <div class="suite-block__content-col">
       <div class="suite-block__content">
-        <span class="suite-block__num">05</span>
-        <div class="suite-block__tag" style="background:#F0F9FF;color:#0284C7;border:1px solid #BAE6FD">
+<div class="suite-block__tag" style="background:#F0F9FF;color:#0284C7;border:1px solid #BAE6FD">
           <svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="3" y="3" width="7" height="7"/><rect x="14" y="3" width="7" height="7"/><rect x="14" y="14" width="7" height="7"/><rect x="3" y="14" width="7" height="7"/></svg>
           Projetos
         </div>
@@ -237,8 +232,7 @@ HTML;
     </div>
     <div class="suite-block__content-col">
       <div class="suite-block__content">
-        <span class="suite-block__num">06</span>
-        <div class="suite-block__tag" style="background:#FFF1F2;color:#E11D48;border:1px solid #FECDD3">
+<div class="suite-block__tag" style="background:#FFF1F2;color:#E11D48;border:1px solid #FECDD3">
           <svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="3" y="4" width="18" height="18" rx="2"/><line x1="16" y1="2" x2="16" y2="6"/><line x1="8" y1="2" x2="8" y2="6"/><line x1="3" y1="10" x2="21" y2="10"/></svg>
           Agenda
         </div>
@@ -267,8 +261,7 @@ HTML;
     </div>
     <div class="suite-block__content-col">
       <div class="suite-block__content">
-        <span class="suite-block__num">07</span>
-        <div class="suite-block__tag" style="background:#FFFBEB;color:#D97706;border:1px solid #FDE68A">
+<div class="suite-block__tag" style="background:#FFFBEB;color:#D97706;border:1px solid #FDE68A">
           <svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="18" y1="20" x2="18" y2="10"/><line x1="12" y1="20" x2="12" y2="4"/><line x1="6" y1="20" x2="6" y2="14"/></svg>
           Relatórios
         </div>
@@ -297,8 +290,7 @@ HTML;
     </div>
     <div class="suite-block__content-col">
       <div class="suite-block__content">
-        <span class="suite-block__num">08</span>
-        <div class="suite-block__tag" style="background:rgba(56,189,248,0.1);color:#38BDF8;border:1px solid rgba(56,189,248,0.2)">
+<div class="suite-block__tag" style="background:rgba(56,189,248,0.1);color:#38BDF8;border:1px solid rgba(56,189,248,0.2)">
           <svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="3"/><path d="M12 1v4M12 19v4M4.22 4.22l2.83 2.83M16.95 16.95l2.83 2.83M1 12h4M19 12h4M4.22 19.78l2.83-2.83M16.95 7.05l2.83-2.83"/></svg>
           Agentes de IA
         </div>
