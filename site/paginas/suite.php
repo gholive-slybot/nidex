@@ -3,6 +3,54 @@ $page_title       = 'Nidex.Cowork — Ecossistema all-in-one para empreendedores
 $page_description = 'CRM, financeiro, cobranças, tarefas, projetos, agenda, relatórios e Agentes de IA embarcados em cada módulo. Conheça o Nidex.Cowork.';
 require_once dirname(dirname(__DIR__)) . '/site/includes/head-page.php';
 require_once dirname(dirname(__DIR__)) . '/site/includes/header.php';
+
+/* Mock screen reutilizável — passar --mock-color via style */
+function mock_screen(string $color, bool $dark = false): string {
+  $cls = $dark ? ' mock-screen--dark' : '';
+  return <<<HTML
+<div class="mock-screen{$cls}" style="--mock-color:{$color}">
+  <div class="mock-screen__chrome">
+    <div class="mock-screen__dots"><span></span><span></span><span></span></div>
+    <div class="mock-screen__urlbar"></div>
+  </div>
+  <div class="mock-screen__body">
+    <div class="mock-screen__sidebar">
+      <div class="mock-screen__sidebar-logo"></div>
+      <div class="mock-screen__sidebar-item mock-screen__sidebar-item--active"></div>
+      <div class="mock-screen__sidebar-item"></div>
+      <div class="mock-screen__sidebar-item"></div>
+      <div class="mock-screen__sidebar-item"></div>
+      <div class="mock-screen__sidebar-item"></div>
+    </div>
+    <div class="mock-screen__main">
+      <div class="mock-screen__topbar">
+        <div class="mock-screen__topbar-title"></div>
+        <div class="mock-screen__topbar-btn"></div>
+      </div>
+      <div class="mock-screen__cards">
+        <div class="mock-screen__card">
+          <div class="mock-screen__card-label"></div>
+          <div class="mock-screen__card-value mock-screen__card-value--accent"></div>
+        </div>
+        <div class="mock-screen__card">
+          <div class="mock-screen__card-label"></div>
+          <div class="mock-screen__card-value"></div>
+        </div>
+        <div class="mock-screen__card">
+          <div class="mock-screen__card-label"></div>
+          <div class="mock-screen__card-value"></div>
+        </div>
+      </div>
+      <div class="mock-screen__rows">
+        <div class="mock-screen__row"><div class="mock-screen__row-dot"></div><div class="mock-screen__row-line"></div><div class="mock-screen__row-line mock-screen__row-line--short"></div><div class="mock-screen__row-tag"></div></div>
+        <div class="mock-screen__row"><div class="mock-screen__row-dot"></div><div class="mock-screen__row-line"></div><div class="mock-screen__row-line mock-screen__row-line--short"></div><div class="mock-screen__row-tag"></div></div>
+        <div class="mock-screen__row"><div class="mock-screen__row-dot"></div><div class="mock-screen__row-line"></div><div class="mock-screen__row-line mock-screen__row-line--short"></div><div class="mock-screen__row-tag"></div></div>
+      </div>
+    </div>
+  </div>
+</div>
+HTML;
+}
 ?>
 
 <!-- HERO -->
@@ -35,9 +83,7 @@ require_once dirname(dirname(__DIR__)) . '/site/includes/header.php';
 <section class="suite-block">
   <div class="suite-block__container">
     <div class="suite-block__screenshot-col">
-      <div class="suite-block__screenshot-frame">
-        <img src="/site/assets/img/mockups/crm.jpg" alt="CRM Nidex.Cowork" loading="lazy" />
-      </div>
+      <?= mock_screen('#2563EB') ?>
     </div>
     <div class="suite-block__content-col">
       <div class="suite-block__content">
@@ -67,9 +113,7 @@ require_once dirname(dirname(__DIR__)) . '/site/includes/header.php';
 <section class="suite-block suite-block--alt suite-block--reverse">
   <div class="suite-block__container">
     <div class="suite-block__screenshot-col">
-      <div class="suite-block__screenshot-frame">
-        <img src="/site/assets/img/mockups/financeiro.jpg" alt="Financeiro Nidex.Cowork" loading="lazy" />
-      </div>
+      <?= mock_screen('#16A34A') ?>
     </div>
     <div class="suite-block__content-col">
       <div class="suite-block__content">
@@ -99,9 +143,7 @@ require_once dirname(dirname(__DIR__)) . '/site/includes/header.php';
 <section class="suite-block">
   <div class="suite-block__container">
     <div class="suite-block__screenshot-col">
-      <div class="suite-block__screenshot-frame">
-        <img src="/site/assets/img/mockups/cobrancas.jpg" alt="Cobranças Nidex.Cowork" loading="lazy" />
-      </div>
+      <?= mock_screen('#EA580C') ?>
     </div>
     <div class="suite-block__content-col">
       <div class="suite-block__content">
@@ -131,9 +173,7 @@ require_once dirname(dirname(__DIR__)) . '/site/includes/header.php';
 <section class="suite-block suite-block--alt suite-block--reverse">
   <div class="suite-block__container">
     <div class="suite-block__screenshot-col">
-      <div class="suite-block__screenshot-frame">
-        <img src="/site/assets/img/mockups/tarefas.jpg" alt="Tarefas Nidex.Cowork" loading="lazy" />
-      </div>
+      <?= mock_screen('#9333EA') ?>
     </div>
     <div class="suite-block__content-col">
       <div class="suite-block__content">
@@ -163,9 +203,7 @@ require_once dirname(dirname(__DIR__)) . '/site/includes/header.php';
 <section class="suite-block">
   <div class="suite-block__container">
     <div class="suite-block__screenshot-col">
-      <div class="suite-block__screenshot-frame">
-        <img src="/site/assets/img/mockups/projetos.jpg" alt="Projetos Nidex.Cowork" loading="lazy" />
-      </div>
+      <?= mock_screen('#0284C7') ?>
     </div>
     <div class="suite-block__content-col">
       <div class="suite-block__content">
@@ -195,9 +233,7 @@ require_once dirname(dirname(__DIR__)) . '/site/includes/header.php';
 <section class="suite-block suite-block--alt suite-block--reverse">
   <div class="suite-block__container">
     <div class="suite-block__screenshot-col">
-      <div class="suite-block__screenshot-frame">
-        <img src="/site/assets/img/mockups/agenda.jpg" alt="Agenda Nidex.Cowork" loading="lazy" />
-      </div>
+      <?= mock_screen('#E11D48') ?>
     </div>
     <div class="suite-block__content-col">
       <div class="suite-block__content">
@@ -227,9 +263,7 @@ require_once dirname(dirname(__DIR__)) . '/site/includes/header.php';
 <section class="suite-block">
   <div class="suite-block__container">
     <div class="suite-block__screenshot-col">
-      <div class="suite-block__screenshot-frame">
-        <img src="/site/assets/img/mockups/relatorios.jpg" alt="Relatórios Nidex.Cowork" loading="lazy" />
-      </div>
+      <?= mock_screen('#D97706') ?>
     </div>
     <div class="suite-block__content-col">
       <div class="suite-block__content">
@@ -259,9 +293,7 @@ require_once dirname(dirname(__DIR__)) . '/site/includes/header.php';
 <section class="suite-block suite-block--dark suite-block--reverse">
   <div class="suite-block__container">
     <div class="suite-block__screenshot-col">
-      <div class="suite-block__screenshot-frame suite-block__screenshot-frame--dark">
-        <img src="/site/assets/img/mockups/ia-agents.jpg" alt="Agentes de IA Nidex.Cowork" loading="lazy" />
-      </div>
+      <?= mock_screen('#38BDF8', true) ?>
     </div>
     <div class="suite-block__content-col">
       <div class="suite-block__content">
