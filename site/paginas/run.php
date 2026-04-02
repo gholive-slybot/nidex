@@ -90,7 +90,7 @@ require_once dirname(dirname(__DIR__)) . '/site/includes/header.php';
         </div>
         <div class="run-sum-card__body">
           <h3 class="run-sum-card__title">Nidex.<span class="text-accent">Projects</span></h3>
-          <p class="run-sum-card__desc">Desenvolvimento de sites, softwares, apps e automações com IA embarcada. MVP funcional em até 2 semanas — do discovery ao deploy com time completo.</p>
+          <p class="run-sum-card__desc">Desenvolvimento de softwares, apps e automações com IA embarcada. MVP funcional em até 2 semanas — do discovery ao deploy com time completo.</p>
           <div class="run-sum-card__chips">
             <span>MVP em 2 semanas</span>
             <span>IA embarcada</span>

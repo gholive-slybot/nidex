@@ -1,6 +1,6 @@
 <?php
 $page_title       = 'Nidex.Projects — Desenvolvimento com IA sob demanda';
-$page_description = 'Sites, softwares, apps e automações com IA embarcada. MVP em até 2 semanas. Do discovery ao deploy com time completo da Nidex.';
+$page_description = 'Softwares, apps e automações com IA embarcada. MVP em até 2 semanas. Do discovery ao deploy com time completo da Nidex.';
 require_once dirname(dirname(__DIR__)) . '/site/includes/head-page.php';
 require_once dirname(dirname(__DIR__)) . '/site/includes/header.php';
 ?>
@@ -16,7 +16,7 @@ require_once dirname(dirname(__DIR__)) . '/site/includes/header.php';
     </div>
     <span class="svc-hero__label">Nidex.Run — Projects</span>
     <h1 class="svc-hero__title">Sua ideia de IA.<br /><span class="text-accent">Executada por quem entende.</span></h1>
-    <p class="svc-hero__desc">Desenvolvimento de sites, softwares, apps e automações com IA embarcada. MVP em até 2 semanas — do discovery ao deploy com time completo.</p>
+    <p class="svc-hero__desc">Desenvolvimento de softwares, apps e automações com IA embarcada. MVP em até 2 semanas — do discovery ao deploy com time completo.</p>
     <div class="svc-hero__ctas">
       <a href="#contato" class="btn btn--primary open-modal">Iniciar projeto</a>
       <a href="#contato" class="btn btn--ghost-dark">Falar com especialista</a>
@@ -79,7 +79,7 @@ require_once dirname(dirname(__DIR__)) . '/site/includes/header.php';
       <div class="reveal">
         <span class="section-label">Nossa Abordagem</span>
         <h2 class="section-title" style="margin-top:12px">Time completo. Entrega rápida.<br />IA desde o primeiro dia.</h2>
-        <p class="section-desc" style="margin:16px 0 28px">A Nidex desenvolve seu projeto do zero com IA embarcada desde a concepção. Sites, softwares, apps, chatbots — arquitetura pensada para escalar e fácil de manter, entregue em ciclos curtos.</p>
+        <p class="section-desc" style="margin:16px 0 28px">A Nidex desenvolve seu projeto do zero com IA embarcada desde a concepção. Softwares, apps, chatbots — arquitetura pensada para escalar e fácil de manter, entregue em ciclos curtos.</p>
         <ul class="run-block__features">
           <li><div class="run-feat__icon run-feat__icon--accent"><svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="20 6 9 17 4 12"/></svg></div><span>Discovery estruturado para definir escopo, KPIs e stack ideal</span></li>
           <li><div class="run-feat__icon run-feat__icon--accent"><svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="20 6 9 17 4 12"/></svg></div><span>IA embarcada desde o MVP — não como add-on depois</span></li>

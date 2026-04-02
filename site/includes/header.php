@@ -133,7 +133,7 @@
                   <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polygon points="13 2 3 14 12 14 11 22 21 10 12 10 13 2"/></svg>
                 </div>
                 <p class="nav-mega__col-title">Nidex.Projects</p>
-                <p class="nav-mega__col-desc">Sites, apps e softwares com IA embarcada. MVP em até 2 semanas com time completo.</p>
+                <p class="nav-mega__col-desc">Apps e softwares com IA embarcada. MVP em até 2 semanas com time completo.</p>
                 <a href="/run/projects" class="nav-mega__col-link">Ver detalhes <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><line x1="5" y1="12" x2="19" y2="12"/><polyline points="12 5 19 12 12 19"/></svg></a>
               </div>
 
