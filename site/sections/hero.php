@@ -20,12 +20,12 @@
             Todos os apps do seu negócio em um único lugar — com Agentes de IA embarcados em cada módulo, executando tarefas de forma autônoma enquanto você foca no que importa.
           </p>
           <div class="hero-split__pills">
-            <span>CRM</span>
-            <span>Financeiro</span>
-            <span>Cobranças</span>
-            <span>Projetos</span>
-            <span>Agenda</span>
-            <span class="hero-split__pill--ia">+ Agentes de IA</span>
+            <a href="/cowork#crm">CRM</a>
+            <a href="/cowork#financeiro">Financeiro</a>
+            <a href="/cowork#cobrancas">Cobranças</a>
+            <a href="/cowork#projetos">Projetos</a>
+            <a href="/cowork#agenda">Agenda</a>
+            <a href="/cowork#ia" class="hero-split__pill--ia">+ Agentes de IA</a>
           </div>
           <div class="hero-split__cta">
             <span class="hero-split__btn hero-split__btn--blue">
@@ -58,10 +58,10 @@
             Serviços premium de IA conectados de forma personalizada ao seu negócio — do treinamento da equipe ao deployment de Agentes customizados no seu stack.
           </p>
           <div class="hero-split__pills">
-            <span>Academy</span>
-            <span>Projects</span>
-            <span>IA Agents</span>
-            <span>Consulting</span>
+            <a href="/run/academy">Academy</a>
+            <a href="/run/projects">Projects</a>
+            <a href="/run/ia-agents">IA Agents</a>
+            <a href="/run/consulting">Consulting</a>
           </div>
           <div class="hero-split__cta">
             <span class="hero-split__btn hero-split__btn--teal">

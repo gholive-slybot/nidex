@@ -703,7 +703,8 @@
   margin-bottom: 40px;
   justify-content: center;
 }
-.hero-split__pills span {
+.hero-split__pills span,
+.hero-split__pills a {
   font-size: 0.75rem;
   font-weight: 500;
   padding: 5px 12px;
@@ -711,14 +712,23 @@
   background: rgba(255,255,255,0.06);
   border: 1px solid rgba(255,255,255,0.1);
   color: rgba(255,255,255,0.55);
+  text-decoration: none;
+  transition: background 0.2s, color 0.2s, border-color 0.2s;
 }
-.hero-split__pill--ia {
+.hero-split__pills a:hover {
+  background: rgba(255,255,255,0.12);
+  color: rgba(255,255,255,0.85);
+  border-color: rgba(255,255,255,0.2);
+}
+.hero-split__pill--ia,
+a.hero-split__pill--ia {
   background: rgba(37,99,235,0.15) !important;
   border-color: rgba(37,99,235,0.35) !important;
   color: #38BDF8 !important;
   font-weight: 600 !important;
 }
-.hero-split__panel--run .hero-split__pill--ia {
+.hero-split__panel--run .hero-split__pill--ia,
+.hero-split__panel--run a.hero-split__pill--ia {
   background: rgba(16,185,129,0.12) !important;
   border-color: rgba(16,185,129,0.3) !important;
   color: #34D399 !important;
