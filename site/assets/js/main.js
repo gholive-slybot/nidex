@@ -64,21 +64,54 @@ document.addEventListener('keydown', (e) => {
 });
 
 // ===========================
-// MOBILE MENU
+// MOBILE DRAWER
 // ===========================
 const navToggle  = document.getElementById('navToggle');
-const mobileMenu = document.getElementById('mobileMenu');
+const mobDrawer  = document.getElementById('mobDrawer');
+const mobOverlay = document.getElementById('mobOverlay');
+const mobClose   = document.getElementById('mobClose');
 
-if (navToggle) {
-  navToggle.addEventListener('click', () => {
-    mobileMenu.classList.toggle('open');
-    // Close all dropdowns
-    document.querySelectorAll('.nav-dropdown.open').forEach(d => d.classList.remove('open'));
-  });
+function openDrawer() {
+  mobDrawer.classList.add('open');
+  mobDrawer.setAttribute('aria-hidden', 'false');
+  document.body.style.overflow = 'hidden';
+  document.querySelectorAll('.nav-dropdown.open').forEach(d => d.classList.remove('open'));
+}
+function closeDrawer() {
+  mobDrawer.classList.remove('open');
+  mobDrawer.setAttribute('aria-hidden', 'true');
+  document.body.style.overflow = '';
 }
 
-document.querySelectorAll('.mobile-menu__link').forEach(link => {
-  link.addEventListener('click', () => mobileMenu.classList.remove('open'));
+if (navToggle)  navToggle.addEventListener('click', openDrawer);
+if (mobClose)   mobClose.addEventListener('click', closeDrawer);
+if (mobOverlay) mobOverlay.addEventListener('click', closeDrawer);
+
+// Escape key
+document.addEventListener('keydown', (e) => {
+  if (e.key === 'Escape' && mobDrawer?.classList.contains('open')) closeDrawer();
+});
+
+// Accordion sections
+document.querySelectorAll('.mob-section__trigger').forEach(trigger => {
+  trigger.addEventListener('click', () => {
+    const section = trigger.closest('.mob-section');
+    const isOpen  = section.classList.contains('open');
+    // Close siblings
+    document.querySelectorAll('.mob-section.open').forEach(s => {
+      s.classList.remove('open');
+      s.querySelector('.mob-section__trigger').setAttribute('aria-expanded', 'false');
+    });
+    if (!isOpen) {
+      section.classList.add('open');
+      trigger.setAttribute('aria-expanded', 'true');
+    }
+  });
+});
+
+// Close drawer on link click
+document.querySelectorAll('.mob-drawer__panel a').forEach(link => {
+  link.addEventListener('click', closeDrawer);
 });
 
 // ===========================
