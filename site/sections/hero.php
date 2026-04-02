@@ -14,7 +14,7 @@
           <h2 class="hero-split__title">
             Ecossistema completo<br />
             de Apps com<br />
-            <span class="hero-split__accent hero-split__accent--blue">IA Embarcada.</span>
+            <span class="hero-split__accent hero-split__accent--blue">Agentes de IA trabalhando por você.</span>
           </h2>
           <p class="hero-split__desc">
             Todos os apps do seu negócio em um único lugar — com Agentes de IA embarcados em cada módulo, executando tarefas de forma autônoma enquanto você foca no que importa.
