@@ -30,7 +30,6 @@ require SITE . '/sections/hero.php';
 require SITE . '/sections/problem.php';
 require SITE . '/sections/modules.php';
 require SITE . '/sections/ia.php';
-require SITE . '/sections/mobile.php';
 require SITE . '/sections/why.php';
 require SITE . '/sections/run-preview.php';
 require SITE . '/sections/faq.php';

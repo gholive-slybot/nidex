@@ -277,25 +277,3 @@ document.querySelectorAll('.faq-item__trigger').forEach(trigger => {
   observer.observe(document.getElementById('ia') || messagesEl);
 })();
 
-// ===========================
-// MOBILE SECTION — parallax bg
-// ===========================
-const mobileBg = document.getElementById('mobileBg');
-if (mobileBg) {
-  const mobileSection = document.getElementById('mobileSection');
-  let ticking = false;
-  window.addEventListener('scroll', () => {
-    if (!ticking) {
-      requestAnimationFrame(() => {
-        const rect = mobileSection.getBoundingClientRect();
-        const viewH = window.innerHeight;
-        if (rect.top < viewH && rect.bottom > 0) {
-          const progress = (viewH - rect.top) / (viewH + mobileSection.offsetHeight);
-          mobileBg.style.transform = `translateY(${Math.round((progress - 0.5) * 100)}px)`;
-        }
-        ticking = false;
-      });
-      ticking = true;
-    }
-  }, { passive: true });
-}
