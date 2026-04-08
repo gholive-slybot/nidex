@@ -89,8 +89,8 @@ $pageTitle = $post ? htmlspecialchars($post['title']) . ' — Blog Nidex' : 'Pos
         <a href="/#precos">Preços</a>
       </nav>
       <div class="navbar__actions">
-        <a href="#" class="navbar__login">Entrar</a>
-        <a href="/#contato" class="btn btn--primary">Começar grátis</a>
+        <a href="https://app.nidex.com.br/users/sign_in" class="navbar__login">Entrar</a>
+        <a href="https://app.nidex.com.br/users/sign_up" class="btn btn--primary">Começar grátis</a>
       </div>
       <button class="navbar__toggle" id="navToggle" aria-label="Menu">
         <span></span><span></span><span></span>
@@ -146,8 +146,8 @@ $pageTitle = $post ? htmlspecialchars($post['title']) . ' — Blog Nidex' : 'Pos
       <a href="/#depoimentos" class="mobile-menu__link">Depoimentos</a>
       <a href="/#precos" class="mobile-menu__link">Preços</a>
       <div class="mobile-menu__actions">
-        <a href="#" class="mobile-menu__login">Entrar</a>
-        <a href="/#contato" class="btn btn--primary">Começar grátis</a>
+        <a href="https://app.nidex.com.br/users/sign_in" class="mobile-menu__login">Entrar</a>
+        <a href="https://app.nidex.com.br/users/sign_up" class="btn btn--primary">Começar grátis</a>
       </div>
     </div>
   </header>

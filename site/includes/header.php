@@ -166,8 +166,8 @@
       </nav>
 
       <div class="navbar__actions">
-        <a href="#" class="navbar__login">Entrar</a>
-        <a href="#contato" class="btn btn--primary open-modal">Começar grátis</a>
+        <a href="https://app.nidex.com.br/users/sign_in" class="navbar__login">Entrar</a>
+        <a href="https://app.nidex.com.br/users/sign_up" class="btn btn--primary">Começar grátis</a>
       </div>
       <button class="navbar__toggle" id="navToggle" aria-label="Menu">
         <span></span><span></span><span></span>
@@ -289,8 +289,8 @@
       </div>
 
       <div class="mob-drawer__foot">
-        <a href="#" class="mob-drawer__login">Entrar na plataforma</a>
-        <a href="#contato" class="btn btn--primary open-modal">Começar grátis</a>
+        <a href="https://app.nidex.com.br/users/sign_in" class="mob-drawer__login">Entrar na plataforma</a>
+        <a href="https://app.nidex.com.br/users/sign_up" class="btn btn--primary">Começar grátis</a>
       </div>
 
     </nav>

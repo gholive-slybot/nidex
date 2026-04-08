@@ -10,7 +10,7 @@
           Junte-se a mais de 3.200 empreendedores que já usam a nidex para crescer com mais controle e menos estresse.
         </p>
         <div class="cta-section__btns">
-          <a href="#contato" class="btn btn--primary btn--lg open-modal">
+          <a href="https://app.nidex.com.br/users/sign_up" class="btn btn--primary btn--lg">
             Começar grátis — 14 dias
             <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M5 12h14M12 5l7 7-7 7"/></svg>
           </a>
