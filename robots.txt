@@ -1,0 +1,29 @@
+User-agent: *
+Allow: /
+
+# Bloquear painel administrativo e áreas privadas
+Disallow: /cms/
+Disallow: /api/
+Disallow: /uploads/
+Disallow: /config.php
+Disallow: /.env
+Disallow: /.htaccess
+
+# Permitir bots de IA (para visibilidade em ferramentas de busca por IA)
+User-agent: GPTBot
+Allow: /
+
+User-agent: Claude-Web
+Allow: /
+
+User-agent: PerplexityBot
+Allow: /
+
+User-agent: anthropic-ai
+Allow: /
+
+User-agent: Applebot
+Allow: /
+
+# Sitemap
+Sitemap: https://nidex.com.br/sitemap.xml
