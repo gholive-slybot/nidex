@@ -15,7 +15,7 @@ require_once dirname(dirname(__DIR__)) . '/site/includes/header.php';
       <a href="/">Nidex</a><span>/</span><a href="/run">Nidex.Run</a><span>/</span>Academy
     </div>
     <span class="svc-hero__label">Nidex.Run — Academy</span>
-    <h1 class="svc-hero__title">Capacite sua equipe.<br /><span class="text-accent">Produza com IA.</span></h1>
+    <h1 class="svc-hero__title">Capacite sua equipe.<br /><span class="text-run">Produza com IA.</span></h1>
     <p class="svc-hero__desc">Treinamentos in company e online para equipes de qualquer porte. Do primeiro uso ao domínio avançado — tudo customizado para o seu negócio.</p>
     <div class="svc-hero__ctas">
       <a href="#contato" class="btn btn--run open-modal">Solicitar treinamento</a>
@@ -160,7 +160,7 @@ require_once dirname(dirname(__DIR__)) . '/site/includes/header.php';
   <div class="run-cta__glow"></div>
   <div class="container run-cta__inner reveal">
     <span class="section-label section-label--accent">Pronto para começar?</span>
-    <h2 class="run-cta__title">Sua equipe pode ser<br /><span class="text-accent">10x mais produtiva com IA.</span></h2>
+    <h2 class="run-cta__title">Sua equipe pode ser<br /><span class="text-run">10x mais produtiva com IA.</span></h2>
     <p class="run-cta__desc">Fale com nosso time e vamos montar o treinamento ideal para o seu momento.</p>
     <div class="run-cta__actions">
       <a href="#contato" class="btn btn--run open-modal">Solicitar treinamento</a>

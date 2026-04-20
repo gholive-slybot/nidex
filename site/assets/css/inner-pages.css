@@ -109,37 +109,30 @@
 .run-pill__dot--3 { background: #10B981; }
 .run-pill__dot--4 { background: #F59E0B; }
 
-/* Run — green theme overrides */
-.run-hero .text-gradient {
+/* ===========================
+   NIDEX.RUN — IDENTIDADE VERDE
+=========================== */
+
+/* Classe de destaque verde — usada em TODOS os títulos Run */
+.text-run {
   background: linear-gradient(90deg, #10B981, #34D399);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   background-clip: text;
 }
-.run-summary .section-label { color: #059669; }
+
+/* Section labels verdes */
+.run-summary .section-label,
+.svc-solution .section-label,
+.svc-process  .section-label,
+.svc-deliverables .section-label { color: #059669; }
+
+.svc-problem .section-label--accent,
+.run-cta .section-label--accent   { color: #10B981; }
+
+/* Links e glows */
 .run-sum-card__link { color: #059669; }
-.run-cta__glow { background: rgba(5,150,105,0.15); }
-.run-cta .section-label--accent { color: #10B981; }
-
-/* text-accent verde — cancela o gradiente global em todos os contextos Run */
-.run-summary .text-accent,
-.run-cta .text-accent,
-.svc-hero .text-accent,
-.svc-solution .text-accent,
-.svc-process .text-accent,
-.svc-deliverables .text-accent {
-  background: none !important;
-  -webkit-background-clip: unset !important;
-  background-clip: unset !important;
-  -webkit-text-fill-color: #34D399 !important;
-  color: #34D399 !important;
-}
-
-/* svc pages — section-labels verdes */
-.svc-problem .section-label--accent { color: #10B981; }
-.svc-solution .section-label        { color: #059669; }
-.svc-process  .section-label        { color: #059669; }
-.svc-deliverables .section-label    { color: #059669; }
+.run-cta__glow      { background: rgba(5,150,105,0.15); }
 
 /* ===========================
    NIDEX.RUN — STICKY NAV

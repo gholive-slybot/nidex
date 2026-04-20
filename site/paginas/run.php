@@ -14,7 +14,7 @@ require_once dirname(dirname(__DIR__)) . '/site/includes/header.php';
     <span class="run-hero__label">Nidex.Run</span>
     <h1 class="run-hero__title">
       IA de alta performance<br />
-      <span class="text-gradient">para empresas que evoluem.</span>
+      <span class="text-run">para empresas que evoluem.</span>
     </h1>
     <p class="run-hero__desc">
       Quatro abordagens estratégicas para implementar, integrar e escalar inteligência artificial
@@ -62,7 +62,7 @@ require_once dirname(dirname(__DIR__)) . '/site/includes/header.php';
           </span>
         </div>
         <div class="run-sum-card__body">
-          <h3 class="run-sum-card__title">Nidex.<span class="text-accent">Academy</span></h3>
+          <h3 class="run-sum-card__title">Nidex.<span class="text-run">Academy</span></h3>
           <p class="run-sum-card__desc">Treinamentos in company e online para equipes de qualquer porte. Customizado para o seu segmento e função — sua equipe usa IA na prática a partir da próxima semana.</p>
           <div class="run-sum-card__chips">
             <span>Workshops práticos</span>
@@ -89,7 +89,7 @@ require_once dirname(dirname(__DIR__)) . '/site/includes/header.php';
           </span>
         </div>
         <div class="run-sum-card__body">
-          <h3 class="run-sum-card__title">Nidex.<span class="text-accent">Projects</span></h3>
+          <h3 class="run-sum-card__title">Nidex.<span class="text-run">Projects</span></h3>
           <p class="run-sum-card__desc">Desenvolvimento de softwares, apps e automações com IA embarcada. MVP funcional em até 2 semanas — do discovery ao deploy com time completo.</p>
           <div class="run-sum-card__chips">
             <span>MVP em 2 semanas</span>
@@ -116,7 +116,7 @@ require_once dirname(dirname(__DIR__)) . '/site/includes/header.php';
           </span>
         </div>
         <div class="run-sum-card__body">
-          <h3 class="run-sum-card__title">Nidex.<span class="text-accent">IA Agents</span></h3>
+          <h3 class="run-sum-card__title">Nidex.<span class="text-run">IA Agents</span></h3>
           <p class="run-sum-card__desc">Agentes de IA acoplados ao software que o cliente já utiliza — via API ou webhook. Sem trocar sistema, sem interromper operação. Inteligência autônoma embarcada.</p>
           <div class="run-sum-card__chips">
             <span>Zero interrupção</span>
@@ -143,7 +143,7 @@ require_once dirname(dirname(__DIR__)) . '/site/includes/header.php';
           </span>
         </div>
         <div class="run-sum-card__body">
-          <h3 class="run-sum-card__title">Nidex.<span class="text-accent">Consulting</span></h3>
+          <h3 class="run-sum-card__title">Nidex.<span class="text-run">Consulting</span></h3>
           <p class="run-sum-card__desc">Diagnóstico completo de maturidade em IA, roadmap estratégico com ROI estimado e execução supervisionada. Para quem quer resultado real, não relatório.</p>
           <div class="run-sum-card__chips">
             <span>Diagnóstico completo</span>
@@ -167,7 +167,7 @@ require_once dirname(dirname(__DIR__)) . '/site/includes/header.php';
   <div class="run-cta__glow"></div>
   <div class="container run-cta__inner reveal">
     <span class="section-label section-label--accent">Pronto para começar?</span>
-    <h2 class="run-cta__title">Escolha sua abordagem.<br /><span class="text-accent">Execute com quem entende.</span></h2>
+    <h2 class="run-cta__title">Escolha sua abordagem.<br /><span class="text-run">Execute com quem entende.</span></h2>
     <p class="run-cta__desc">Entre em contato e nosso time define a melhor estratégia para o seu momento.</p>
     <div class="run-cta__actions">
       <a href="#contato" class="btn btn--run open-modal">Falar com especialista</a>

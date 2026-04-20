@@ -5,7 +5,7 @@
       <span class="section-label">Nidex.Run</span>
       <h2 class="section-title" style="margin-top:12px">
         IA de alta performance<br />
-        <span class="text-accent">para empresas que evoluem.</span>
+        <span class="text-run">para empresas que evoluem.</span>
       </h2>
       <p class="section-desc" style="margin-top:16px;max-width:560px;margin-left:auto;margin-right:auto">
         Quatro abordagens estratégicas para implementar, integrar e escalar inteligência artificial no seu negócio.
@@ -23,7 +23,7 @@
           <div class="run-prev-card__icon" style="background:#ECFDF5;color:#059669">
             <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 2L2 7l10 5 10-5-10-5z"/><path d="M2 17l10 5 10-5"/><path d="M2 12l10 5 10-5"/></svg>
           </div>
-          <h3 class="run-prev-card__title">Nidex.<span class="text-accent">Academy</span></h3>
+          <h3 class="run-prev-card__title">Nidex.<span class="text-run">Academy</span></h3>
           <p class="run-prev-card__desc">Treinamento customizado para sua equipe usar IA na prática — in company ou online.</p>
           <span class="run-prev-card__link">
             Ver Academy
@@ -41,7 +41,7 @@
           <div class="run-prev-card__icon" style="background:#ECFDF5;color:#059669">
             <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polygon points="13 2 3 14 12 14 11 22 21 10 12 10 13 2"/></svg>
           </div>
-          <h3 class="run-prev-card__title">Nidex.<span class="text-accent">Projects</span></h3>
+          <h3 class="run-prev-card__title">Nidex.<span class="text-run">Projects</span></h3>
           <p class="run-prev-card__desc">Sites, softwares e apps com IA embarcada. MVP em até 2 semanas com time completo.</p>
           <span class="run-prev-card__link">
             Ver Projects
@@ -59,7 +59,7 @@
           <div class="run-prev-card__icon" style="background:#ECFDF5;color:#059669">
             <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="3"/><path d="M19.07 4.93a10 10 0 0 1 0 14.14M4.93 4.93a10 10 0 0 0 0 14.14"/></svg>
           </div>
-          <h3 class="run-prev-card__title">Nidex.<span class="text-accent">IA Agents</span></h3>
+          <h3 class="run-prev-card__title">Nidex.<span class="text-run">IA Agents</span></h3>
           <p class="run-prev-card__desc">Agentes de IA acoplados ao software que o cliente já utiliza. Zero interrupção, zero migração.</p>
           <span class="run-prev-card__link">
             Ver IA Agents
@@ -77,7 +77,7 @@
           <div class="run-prev-card__icon" style="background:#ECFDF5;color:#059669">
             <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg>
           </div>
-          <h3 class="run-prev-card__title">Nidex.<span class="text-accent">Consulting</span></h3>
+          <h3 class="run-prev-card__title">Nidex.<span class="text-run">Consulting</span></h3>
           <p class="run-prev-card__desc">Diagnóstico, roadmap com ROI e execução supervisionada para resultados reais.</p>
           <span class="run-prev-card__link">
             Ver Consulting

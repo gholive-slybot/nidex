@@ -15,7 +15,7 @@ require_once dirname(dirname(__DIR__)) . '/site/includes/header.php';
       <a href="/">Nidex</a><span>/</span><a href="/run">Nidex.Run</a><span>/</span>Projects
     </div>
     <span class="svc-hero__label">Nidex.Run — Projects</span>
-    <h1 class="svc-hero__title">Sua ideia de IA.<br /><span class="text-accent">Executada por quem entende.</span></h1>
+    <h1 class="svc-hero__title">Sua ideia de IA.<br /><span class="text-run">Executada por quem entende.</span></h1>
     <p class="svc-hero__desc">Desenvolvimento de softwares, apps e automações com IA embarcada. MVP em até 2 semanas — do discovery ao deploy com time completo.</p>
     <div class="svc-hero__ctas">
       <a href="#contato" class="btn btn--run open-modal">Iniciar projeto</a>
@@ -118,7 +118,7 @@ require_once dirname(dirname(__DIR__)) . '/site/includes/header.php';
   <div class="container">
     <div class="run-portfolio__header reveal">
       <span class="section-label">Portfólio</span>
-      <h3 class="run-portfolio__title">Projetos que <span class="text-accent">entregamos</span></h3>
+      <h3 class="run-portfolio__title">Projetos que <span class="text-run">entregamos</span></h3>
     </div>
     <div class="run-portfolio__grid">
 
@@ -261,7 +261,7 @@ require_once dirname(dirname(__DIR__)) . '/site/includes/header.php';
   <div class="run-cta__glow"></div>
   <div class="container run-cta__inner reveal">
     <span class="section-label section-label--accent">Pronto para começar?</span>
-    <h2 class="run-cta__title">Seu projeto de IA<br /><span class="text-accent">sai do papel agora.</span></h2>
+    <h2 class="run-cta__title">Seu projeto de IA<br /><span class="text-run">sai do papel agora.</span></h2>
     <p class="run-cta__desc">Fale com nosso time e vamos transformar sua ideia em produto em até 2 semanas.</p>
     <div class="run-cta__actions">
       <a href="#contato" class="btn btn--run open-modal">Iniciar projeto</a>
