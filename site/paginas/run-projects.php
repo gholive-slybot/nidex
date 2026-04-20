@@ -2,6 +2,7 @@
 $page_title       = 'Nidex.Projects — Desenvolvimento com IA sob demanda';
 $page_description = 'Softwares, apps e automações com IA embarcada. MVP em até 2 semanas. Do discovery ao deploy com time completo da Nidex.';
 require_once dirname(dirname(__DIR__)) . '/site/includes/head-page.php';
+$body_class = 'nidex-run';
 require_once dirname(dirname(__DIR__)) . '/site/includes/header.php';
 ?>
 

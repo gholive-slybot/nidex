@@ -111,9 +111,11 @@
 
 /* ===========================
    NIDEX.RUN — IDENTIDADE VERDE
+   Escopo: body.nidex-run (run.php e todas as páginas internas)
 =========================== */
 
-/* Classe de destaque verde — usada em TODOS os títulos Run */
+/* Gradiente verde nos títulos */
+.nidex-run .text-run,
 .text-run {
   display: inline-block;
   background: linear-gradient(90deg, #10B981, #34D399);
@@ -122,17 +124,46 @@
   background-clip: text;
 }
 
-/* Section labels verdes */
-.run-summary .section-label,
-.svc-solution .section-label,
-.svc-process  .section-label,
-.svc-deliverables .section-label { color: #059669; }
+/* Section labels */
+.nidex-run .section-label         { color: #059669; }
+.nidex-run .section-label--accent { color: #10B981; }
 
-.svc-problem .section-label--accent,
-.run-cta .section-label--accent   { color: #10B981; }
+/* Ícones de feature (checkboxes) */
+.nidex-run .run-feat__icon        { background: #059669; }
+.nidex-run .run-feat__icon--accent,
+.nidex-run .run-feat__icon--cyan  { background: #047857; }
+.nidex-run .run-feat__icon--cyan svg { stroke: #34D399; }
 
-/* Glows */
-.run-cta__glow { background: rgba(5,150,105,0.15); }
+/* Steps numerados */
+.nidex-run .svc-step__num {
+  background: linear-gradient(135deg, #059669, #047857);
+  box-shadow: 0 4px 12px rgba(5,150,105,0.25);
+}
+
+/* Ícones de entrega */
+.nidex-run .svc-deliver__icon { background: #ECFDF5; border-color: #A7F3D0; color: #059669; }
+
+/* Hero label */
+.nidex-run .svc-hero__label { color: #10B981; background: rgba(16,185,129,0.1); border-color: rgba(16,185,129,0.2); }
+
+/* Links */
+.nidex-run .run-sum-card__link { color: #059669; }
+.nidex-run .run-nav__item:hover       { color: #059669; }
+.nidex-run .run-nav__item.active      { color: #059669; border-bottom-color: #059669; }
+
+/* Botão CTA */
+.nidex-run .btn--primary {
+  background: linear-gradient(135deg, #059669, #047857);
+  box-shadow: 0 4px 20px rgba(5,150,105,0.3);
+}
+.nidex-run .btn--primary:hover {
+  background: linear-gradient(135deg, #047857, #065F46);
+  box-shadow: 0 8px 28px rgba(5,150,105,0.4);
+}
+
+/* Glows e CTA label */
+.nidex-run .run-cta__glow              { background: rgba(5,150,105,0.15); }
+.nidex-run .run-cta .section-label--accent { color: #10B981; }
 
 /* ===========================
    NIDEX.RUN — STICKY NAV

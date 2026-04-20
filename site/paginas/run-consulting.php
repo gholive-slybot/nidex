@@ -2,6 +2,7 @@
 $page_title       = 'Nidex.Consulting — Estratégia de IA com resultado garantido';
 $page_description = 'Consultoria estratégica completa: diagnóstico de maturidade, roadmap com ROI estimado e execução supervisionada. Para empresas que querem resultado real com IA.';
 require_once dirname(dirname(__DIR__)) . '/site/includes/head-page.php';
+$body_class = 'nidex-run';
 require_once dirname(dirname(__DIR__)) . '/site/includes/header.php';
 ?>
 

@@ -1,4 +1,5 @@
-<body>
+<body<?php if (!empty($body_class)) echo ' class="' . htmlspecialchars($body_class) . '"'; ?>>
+
 
   <!-- NAVBAR -->
   <header class="navbar" id="navbar">

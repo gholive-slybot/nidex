@@ -2,6 +2,7 @@
 $page_title       = 'Nidex.IA Agents — Agentes de IA acoplados ao seu software';
 $page_description = 'Nossos Agentes de IA se acoplam ao software que o cliente já utiliza via API ou webhook. Zero interrupção, zero migração. Inteligência autônoma no seu fluxo de trabalho.';
 require_once dirname(dirname(__DIR__)) . '/site/includes/head-page.php';
+$body_class = 'nidex-run';
 require_once dirname(dirname(__DIR__)) . '/site/includes/header.php';
 ?>
 

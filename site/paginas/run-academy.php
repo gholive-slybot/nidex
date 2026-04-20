@@ -2,6 +2,7 @@
 $page_title       = 'Nidex.Academy — Treinamento em IA para Equipes';
 $page_description = 'Capacite sua equipe para usar IA na prática. Workshops customizados, trilha por função e certificação. Presencial ou online ao vivo.';
 require_once dirname(dirname(__DIR__)) . '/site/includes/head-page.php';
+$body_class = 'nidex-run';
 require_once dirname(dirname(__DIR__)) . '/site/includes/header.php';
 ?>
 

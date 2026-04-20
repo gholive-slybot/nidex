@@ -2,6 +2,7 @@
 $page_title       = 'Nidex.Run — IA de Alta Performance para Empresas';
 $page_description = 'Nidex.Run executa serviços de IA de alta performance: Academy, Projects, IA Agents e Consulting. Transforme sua empresa com inteligência artificial.';
 require_once dirname(dirname(__DIR__)) . '/site/includes/head-page.php';
+$body_class = 'nidex-run';
 require_once dirname(dirname(__DIR__)) . '/site/includes/header.php';
 ?>
 
