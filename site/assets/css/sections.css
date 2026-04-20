@@ -1864,14 +1864,16 @@ a.hero-split__pill--ia {
 .run-preview__cta { text-align: center; }
 
 /* Run preview — green theme */
-.run-preview .section-label  { color: #34D399; }
+.run-preview .section-label { color: #34D399; }
+.run-preview .section-title { color: #fff; }
+.run-preview .section-desc  { color: rgba(255,255,255,0.55); }
 .run-preview .text-accent,
 .run-prev-card__title .text-accent {
-  background: none;
-  -webkit-background-clip: unset;
-  background-clip: unset;
-  -webkit-text-fill-color: #34D399;
-  color: #34D399;
+  background: none !important;
+  -webkit-background-clip: unset !important;
+  background-clip: unset !important;
+  -webkit-text-fill-color: #34D399 !important;
+  color: #34D399 !important;
 }
 
 /* Botão verde Nidex.Run */

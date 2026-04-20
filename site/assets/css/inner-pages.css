@@ -128,11 +128,11 @@
 .svc-solution .text-accent,
 .svc-process .text-accent,
 .svc-deliverables .text-accent {
-  background: none;
-  -webkit-background-clip: unset;
-  background-clip: unset;
-  -webkit-text-fill-color: #34D399;
-  color: #34D399;
+  background: none !important;
+  -webkit-background-clip: unset !important;
+  background-clip: unset !important;
+  -webkit-text-fill-color: #34D399 !important;
+  color: #34D399 !important;
 }
 
 /* svc pages — section-labels verdes */
