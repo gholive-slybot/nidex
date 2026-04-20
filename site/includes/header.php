@@ -120,8 +120,8 @@
 
               <!-- Col 2: Academy -->
               <div class="nav-mega__col">
-                <div class="nav-mega__col-icon nav-mega__col-icon--blue">
-                  <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 2L2 7l10 5 10-5-10-5z"/><path d="M2 17l10 5 10-5"/><path d="M2 12l10 5 10-5"/></svg>
+                <div class="nav-mega__col-icon nav-mega__col-icon--green">
+                  <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M22 10L12 5 2 10l10 5 10-5z"/><path d="M6 13v3c0 1.4 2.7 2.5 6 2.5s6-1.1 6-2.5v-3"/><line x1="22" y1="10" x2="22" y2="15"/></svg>
                 </div>
                 <p class="nav-mega__col-title">Nidex.Academy</p>
                 <p class="nav-mega__col-desc">Treinamento customizado in company ou online para sua equipe usar IA na prática.</p>
@@ -130,8 +130,8 @@
 
               <!-- Col 3: Projects -->
               <div class="nav-mega__col">
-                <div class="nav-mega__col-icon nav-mega__col-icon--cyan">
-                  <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polygon points="13 2 3 14 12 14 11 22 21 10 12 10 13 2"/></svg>
+                <div class="nav-mega__col-icon nav-mega__col-icon--green">
+                  <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 2C8.5 5.5 8 9 8 12l4 4c3 0 6.5-.5 10-4 0-3-.5-7-4-10-1-1-4-1.5-6 0z"/><path d="M8 12c-1.5.8-2.5 3-2.5 4 1 0 3.2-1 4-2.5"/><circle cx="15" cy="9" r="1.5"/></svg>
                 </div>
                 <p class="nav-mega__col-title">Nidex.Projects</p>
                 <p class="nav-mega__col-desc">Apps e softwares com IA embarcada. MVP em até 2 semanas com time completo.</p>
@@ -141,7 +141,7 @@
               <!-- Col 4: IA Agents -->
               <div class="nav-mega__col">
                 <div class="nav-mega__col-icon nav-mega__col-icon--green">
-                  <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="3"/><path d="M19.07 4.93a10 10 0 0 1 0 14.14M4.93 4.93a10 10 0 0 0 0 14.14"/></svg>
+                  <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="5" y="7" width="14" height="13" rx="2"/><path d="M10 7V5a2 2 0 0 1 4 0v2"/><circle cx="9" cy="12" r="1.5"/><circle cx="15" cy="12" r="1.5"/><path d="M9 16h6"/><path d="M2 12h3M19 12h3"/></svg>
                 </div>
                 <p class="nav-mega__col-title">Nidex.IA Agents</p>
                 <p class="nav-mega__col-desc">Agentes de IA acoplados ao software que o cliente já utiliza. Zero interrupção, zero migração.</p>
@@ -150,8 +150,8 @@
 
               <!-- Col 5: Consulting -->
               <div class="nav-mega__col" style="border-right:none">
-                <div class="nav-mega__col-icon nav-mega__col-icon--gold">
-                  <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg>
+                <div class="nav-mega__col-icon nav-mega__col-icon--green">
+                  <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="7" width="7" height="15"/><rect x="10" y="2" width="6" height="20"/><rect x="16" y="10" width="5" height="12"/><line x1="1" y1="22" x2="23" y2="22"/></svg>
                 </div>
                 <p class="nav-mega__col-title">Nidex.Consulting</p>
                 <p class="nav-mega__col-desc">Diagnóstico, roadmap com ROI e execução supervisionada para resultados reais.</p>
@@ -254,28 +254,28 @@
             </a>
             <div class="mob-section__run-list">
               <a href="/run/academy" class="mob-section__run-item">
-                <span class="mob-section__run-icon mob-section__run-icon--blue"><svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 2L2 7l10 5 10-5-10-5z"/><path d="M2 17l10 5 10-5"/></svg></span>
+                <span class="mob-section__run-icon mob-section__run-icon--blue"><svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M22 10L12 5 2 10l10 5 10-5z"/><path d="M6 13v3c0 1.4 2.7 2.5 6 2.5s6-1.1 6-2.5v-3"/><line x1="22" y1="10" x2="22" y2="15"/></svg></span>
                 <span>
                   <strong>Academy</strong>
                   <em>Treinamentos in company e online</em>
                 </span>
               </a>
               <a href="/run/projects" class="mob-section__run-item">
-                <span class="mob-section__run-icon mob-section__run-icon--cyan"><svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polygon points="13 2 3 14 12 14 11 22 21 10 12 10 13 2"/></svg></span>
+                <span class="mob-section__run-icon mob-section__run-icon--cyan"><svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 2C8.5 5.5 8 9 8 12l4 4c3 0 6.5-.5 10-4 0-3-.5-7-4-10-1-1-4-1.5-6 0z"/><path d="M8 12c-1.5.8-2.5 3-2.5 4 1 0 3.2-1 4-2.5"/><circle cx="15" cy="9" r="1.5"/></svg></span>
                 <span>
                   <strong>Projects</strong>
                   <em>Apps e automações com IA embarcada</em>
                 </span>
               </a>
               <a href="/run/ia-agents" class="mob-section__run-item">
-                <span class="mob-section__run-icon mob-section__run-icon--green"><svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="3"/><path d="M19.07 4.93a10 10 0 0 1 0 14.14M4.93 4.93a10 10 0 0 0 0 14.14"/></svg></span>
+                <span class="mob-section__run-icon mob-section__run-icon--green"><svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="5" y="7" width="14" height="13" rx="2"/><path d="M10 7V5a2 2 0 0 1 4 0v2"/><circle cx="9" cy="12" r="1.5"/><circle cx="15" cy="12" r="1.5"/><path d="M9 16h6"/><path d="M2 12h3M19 12h3"/></svg></span>
                 <span>
                   <strong>IA Agents</strong>
                   <em>Agentes autônomos no seu sistema</em>
                 </span>
               </a>
               <a href="/run/consulting" class="mob-section__run-item">
-                <span class="mob-section__run-icon mob-section__run-icon--gold"><svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg></span>
+                <span class="mob-section__run-icon mob-section__run-icon--gold"><svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="7" width="7" height="15"/><rect x="10" y="2" width="6" height="20"/><rect x="16" y="10" width="5" height="12"/><line x1="1" y1="22" x2="23" y2="22"/></svg></span>
                 <span>
                   <strong>Consulting</strong>
                   <em>Diagnóstico, roadmap e ROI</em>
