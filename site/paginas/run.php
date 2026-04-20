@@ -58,7 +58,7 @@ require_once dirname(dirname(__DIR__)) . '/site/includes/header.php';
           <div class="run-sum-card__img-overlay"></div>
           <span class="run-sum-card__num">01</span>
           <span class="run-sum-card__badge">
-            <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 2L2 7l10 5 10-5-10-5z"/><path d="M2 17l10 5 10-5"/></svg>
+            <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M2 3h6a4 4 0 0 1 4 4v14a3 3 0 0 0-3-3H2z"/><path d="M22 3h-6a4 4 0 0 0-4 4v14a3 3 0 0 1 3-3h7z"/></svg>
             Capacitação
           </span>
         </div>
@@ -85,7 +85,7 @@ require_once dirname(dirname(__DIR__)) . '/site/includes/header.php';
           <div class="run-sum-card__img-overlay"></div>
           <span class="run-sum-card__num">02</span>
           <span class="run-sum-card__badge">
-            <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polygon points="13 2 3 14 12 14 11 22 21 10 12 10 13 2"/></svg>
+            <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polygon points="12 2 2 7 12 12 22 7 12 2"/><polyline points="2 17 12 22 22 17"/><polyline points="2 12 12 17 22 12"/></svg>
             Desenvolvimento
           </span>
         </div>
@@ -112,7 +112,7 @@ require_once dirname(dirname(__DIR__)) . '/site/includes/header.php';
           <div class="run-sum-card__img-overlay"></div>
           <span class="run-sum-card__num">03</span>
           <span class="run-sum-card__badge">
-            <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="3"/><path d="M19.07 4.93a10 10 0 0 1 0 14.14M4.93 4.93a10 10 0 0 0 0 14.14"/></svg>
+            <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="18" cy="5" r="3"/><circle cx="6" cy="12" r="3"/><circle cx="18" cy="19" r="3"/><line x1="8.59" y1="13.51" x2="15.42" y2="17.49"/><line x1="15.41" y1="6.51" x2="8.59" y2="10.49"/></svg>
             Agentes Autônomos
           </span>
         </div>
@@ -139,7 +139,7 @@ require_once dirname(dirname(__DIR__)) . '/site/includes/header.php';
           <div class="run-sum-card__img-overlay"></div>
           <span class="run-sum-card__num">04</span>
           <span class="run-sum-card__badge">
-            <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg>
+            <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="23 6 13.5 15.5 8.5 10.5 1 18"/><polyline points="17 6 23 6 23 12"/></svg>
             Consultoria Premium
           </span>
         </div>
