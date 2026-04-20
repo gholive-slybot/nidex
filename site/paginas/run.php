@@ -53,7 +53,7 @@ require_once dirname(dirname(__DIR__)) . '/site/includes/header.php';
       <!-- Academy -->
       <a href="/run/academy" class="run-sum-card reveal">
         <div class="run-sum-card__img">
-          <img src="/site/assets/img/run-academy.jpg" alt="Nidex.Academy" loading="lazy" />
+          <img src="/site/assets/img/nidex-academy.png" alt="Nidex.Academy" loading="lazy" />
           <div class="run-sum-card__img-overlay"></div>
           <span class="run-sum-card__num">01</span>
           <span class="run-sum-card__badge">
@@ -80,7 +80,7 @@ require_once dirname(dirname(__DIR__)) . '/site/includes/header.php';
       <!-- Projects -->
       <a href="/run/projects" class="run-sum-card reveal">
         <div class="run-sum-card__img">
-          <img src="/site/assets/img/run-projects.jpg" alt="Nidex.Projects" loading="lazy" />
+          <img src="/site/assets/img/nidex-projects.png" alt="Nidex.Projects" loading="lazy" />
           <div class="run-sum-card__img-overlay"></div>
           <span class="run-sum-card__num">02</span>
           <span class="run-sum-card__badge">
@@ -107,7 +107,7 @@ require_once dirname(dirname(__DIR__)) . '/site/includes/header.php';
       <!-- IA Agents -->
       <a href="/run/ia-agents" class="run-sum-card reveal">
         <div class="run-sum-card__img">
-          <img src="/site/assets/img/run-cowork.jpg" alt="Nidex.IA Agents" loading="lazy" />
+          <img src="/site/assets/img/nidex-agents.png" alt="Nidex.IA Agents" loading="lazy" />
           <div class="run-sum-card__img-overlay"></div>
           <span class="run-sum-card__num">03</span>
           <span class="run-sum-card__badge">
@@ -134,7 +134,7 @@ require_once dirname(dirname(__DIR__)) . '/site/includes/header.php';
       <!-- Consulting -->
       <a href="/run/consulting" class="run-sum-card reveal">
         <div class="run-sum-card__img">
-          <img src="/site/assets/img/run-consulting.jpg" alt="Nidex.Consulting" loading="lazy" />
+          <img src="/site/assets/img/nidex-consulting.png" alt="Nidex.Consulting" loading="lazy" />
           <div class="run-sum-card__img-overlay"></div>
           <span class="run-sum-card__num">04</span>
           <span class="run-sum-card__badge">

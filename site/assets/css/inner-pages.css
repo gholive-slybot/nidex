@@ -43,12 +43,12 @@
 .run-hero__glow--1 {
   width: 640px; height: 640px;
   top: -120px; left: -100px;
-  background: rgba(11,100,244,0.12);
+  background: rgba(5,150,105,0.18);
 }
 .run-hero__glow--2 {
   width: 480px; height: 480px;
   bottom: -80px; right: -80px;
-  background: rgba(56,189,248,0.08);
+  background: rgba(52,211,153,0.10);
 }
 .run-hero__inner { position: relative; }
 .run-hero__label {
@@ -57,9 +57,9 @@
   font-weight: 700;
   letter-spacing: 0.12em;
   text-transform: uppercase;
-  color: var(--accent);
-  background: rgba(56,189,248,0.1);
-  border: 1px solid rgba(56,189,248,0.2);
+  color: #10B981;
+  background: rgba(16,185,129,0.1);
+  border: 1px solid rgba(16,185,129,0.2);
   border-radius: 999px;
   padding: 6px 18px;
   margin-bottom: 28px;
@@ -108,6 +108,19 @@
 .run-pill__dot--2 { background: #38BDF8; }
 .run-pill__dot--3 { background: #10B981; }
 .run-pill__dot--4 { background: #F59E0B; }
+
+/* Run — green theme overrides */
+.run-hero .text-gradient {
+  background: linear-gradient(90deg, #10B981, #34D399);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+.run-summary .section-label { color: #059669; }
+.run-sum-card__link { color: #059669; }
+.run-cta__glow { background: rgba(5,150,105,0.15); }
+.run-cta .text-accent { color: #34D399; }
+.run-cta .section-label--accent { color: #10B981; }
 
 /* ===========================
    NIDEX.RUN — STICKY NAV
