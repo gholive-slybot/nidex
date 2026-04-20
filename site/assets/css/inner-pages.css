@@ -118,7 +118,7 @@
 .nidex-run .text-run,
 .text-run {
   display: inline-block;
-  background: linear-gradient(90deg, #10B981, #34D399);
+  background: linear-gradient(90deg, #059669, #6EE7B7);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   background-clip: text;
