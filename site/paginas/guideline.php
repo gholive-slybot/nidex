@@ -7,7 +7,7 @@
   <meta name="description" content="Referência visual e de componentes do Design System Nidex." />
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-  <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,400&display=swap" rel="stylesheet" />
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,wght@0,300;0,400;0,500;0,600;1,400&family=Sora:wght@400;600;700;800&display=swap" rel="stylesheet" />
   <link rel="stylesheet" href="/site/assets/css/variables.css" />
   <link rel="stylesheet" href="/site/assets/css/reset.css" />
   <link rel="stylesheet" href="/site/assets/css/global.css" />
@@ -363,18 +363,22 @@
     <!-- ── TIPOGRAFIA ── -->
     <section class="gl-section">
       <h2 class="gl-section__title">Tipografia</h2>
-      <p style="color:var(--text-muted);font-size:0.875rem;margin-bottom:24px">Fonte: <strong>Plus Jakarta Sans</strong> — 300, 400, 500, 600, 700, 800</p>
+      <div style="display:flex;gap:24px;flex-wrap:wrap;margin-bottom:24px">
+        <p style="color:var(--text-muted);font-size:0.875rem">Títulos/subtítulos: <strong style="color:var(--text-primary);font-family:'Sora',sans-serif">Sora</strong> — 200, 400, 600, 700, 800</p>
+        <p style="color:var(--text-muted);font-size:0.875rem">Parágrafos/corpo: <strong style="color:var(--text-primary)">DM Sans</strong> — 300, 400, 500, 600</p>
+      </div>
 
       <div style="margin-bottom:40px">
         <?php
         $types = [
-          ['Display / Hero', '4–5rem · 800', 'Um ecossistema inteligente', 'font-size:clamp(2.5rem,5vw,4rem);font-weight:800;line-height:1.07;color:#0F172A'],
-          ['Headline Grande (H1)', '3.5–5rem · 700–800', 'Gerencie tudo.', 'font-size:2.5rem;font-weight:800;line-height:1.1;color:#0F172A'],
-          ['Headline Médio (H2)', '2–2.75rem · 700', 'Tudo que você precisa.', 'font-size:1.875rem;font-weight:700;color:#0F172A'],
-          ['Headline Pequeno (H3)', '1.25–1.5rem · 700', 'CRM Inteligente', 'font-size:1.25rem;font-weight:700;color:#0F172A'],
-          ['Corpo', '1–1.125rem · 400', 'Acompanhe cada cliente do primeiro contato ao fechamento. Pipeline visual com automações.', 'font-size:1rem;font-weight:400;line-height:1.75;color:#64748B'],
-          ['Label de Seção', '0.75rem · 600 · uppercase', 'FUNCIONALIDADES', 'font-size:0.75rem;font-weight:600;letter-spacing:0.1em;text-transform:uppercase;color:#0B64F4'],
-          ['Small / Caption', '0.875rem · 400', 'Sem cartão de crédito · Cancele quando quiser', 'font-size:0.875rem;color:#94A3B8'],
+          ['Display / Hero', 'Sora · 4–5rem · 800', 'Um ecossistema inteligente', "font-size:clamp(2.5rem,5vw,4rem);font-weight:800;line-height:1.07;color:#0F172A;font-family:'Sora',sans-serif"],
+          ['Headline Grande (H1)', 'Sora · 3.5–5rem · 800', 'Gerencie tudo.', "font-size:2.5rem;font-weight:800;line-height:1.1;color:#0F172A;font-family:'Sora',sans-serif"],
+          ['Headline Médio (H2)', 'Sora · 2–2.75rem · 800', 'Tudo que você precisa.', "font-size:1.875rem;font-weight:800;color:#0F172A;font-family:'Sora',sans-serif"],
+          ['Span de destaque', 'Sora · mesmo tamanho · 200', 'Nada que você não precisa.', "font-size:1.875rem;font-weight:200;color:#2563EB;font-family:'Sora',sans-serif"],
+          ['Headline Pequeno (H3)', 'Sora · 1.25–1.5rem · 800', 'CRM Inteligente', "font-size:1.25rem;font-weight:800;color:#0F172A;font-family:'Sora',sans-serif"],
+          ['Corpo', 'DM Sans · 1–1.125rem · 400', 'Acompanhe cada cliente do primeiro contato ao fechamento. Pipeline visual com automações.', 'font-size:1rem;font-weight:400;line-height:1.75;color:#64748B'],
+          ['Label de Seção', 'DM Sans · 0.75rem · 600 · uppercase', 'FUNCIONALIDADES', 'font-size:0.75rem;font-weight:600;letter-spacing:0.1em;text-transform:uppercase;color:#2563EB'],
+          ['Small / Caption', 'DM Sans · 0.875rem · 400', 'Sem cartão de crédito · Cancele quando quiser', 'font-size:0.875rem;color:#94A3B8'],
         ];
         foreach ($types as $t): ?>
         <div class="gl-type-row">
@@ -387,13 +391,21 @@
         <?php endforeach; ?>
       </div>
 
-      <div style="background:var(--bg-light);border:1px solid var(--border);border-radius:16px;padding:32px">
-        <div style="font-size:0.875rem;font-weight:600;color:var(--text-primary);margin-bottom:16px">Destaque em headline</div>
-        <h2 style="font-size:2rem;font-weight:700;line-height:1.2;color:#0F172A">
-          Tudo que você precisa.
-          <span style="color:var(--accent)">Nada que você não precisa.</span>
+      <div style="background:var(--bg-light);border:1px solid var(--border);border-radius:16px;padding:32px;margin-bottom:16px">
+        <div style="font-size:0.875rem;font-weight:600;color:var(--text-primary);margin-bottom:16px">Padrão de contraste — fundo claro</div>
+        <h2 style="font-size:2rem;line-height:1.2;color:#0F172A">
+          Tudo que você precisa.<br />
+          <span style="color:var(--primary)">Nada que você não precisa.</span>
         </h2>
-        <p style="font-size:0.8125rem;color:var(--text-muted);margin-top:12px">Palavra-chave em <code>var(--accent)</code> (#29B2B0) em fundos escuros, ou <code>var(--primary)</code> (#0B64F4) em fundos claros</p>
+        <p style="font-size:0.8125rem;color:var(--text-muted);margin-top:12px">Linha principal: <code>font-weight: 800</code> (Sora ExtraBold) · Span colorido: <code>font-weight: 200</code> (Sora ExtraLight) via <code>h2 &gt; span</code> no reset.css</p>
+      </div>
+      <div style="background:var(--bg-dark);border-radius:16px;padding:32px">
+        <div style="font-size:0.875rem;font-weight:600;color:rgba(255,255,255,0.5);margin-bottom:16px">Padrão de contraste — fundo escuro</div>
+        <h2 style="font-size:2rem;line-height:1.2;color:#fff">
+          Tudo que você precisa.<br />
+          <span style="color:#38BDF8">Nada que você não precisa.</span>
+        </h2>
+        <p style="font-size:0.8125rem;color:rgba(255,255,255,0.4);margin-top:12px">Span em <code style="color:#38BDF8">var(--accent)</code> (#38BDF8) em fundos escuros · <code style="color:#38BDF8">var(--primary)</code> (#2563EB) em fundos claros</p>
       </div>
     </section>
 
